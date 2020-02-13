@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<rss version="2.0">
+<channel><title>Cryptology ePrint Archive About Homomorphic Encryption</title>
+<link>https://eprint.iacr.org/</link>
+<description>Recently modified papers in the IACR Cryptology ePrint Archive About Homomorphic Encryption</description>
+<language>en-us</language>
+<lastBuildDate>Sun, 09 Feb 2020 03:11:52 -0700</lastBuildDate>
+<webMaster>webmaster@iacr.org</webMaster>
+<managingEditor>eprint-editor@iacr.org</managingEditor>
+<generator>None of your business</generator>
+<ttl>60</ttl>
+<item>
+<link>https://eprint.iacr.org/2020/126</link>
+<title><![CDATA[Public-Key Puncturable Encryption: Modular and Compact Constructions]]>, by Shi-Feng Sun and Amin Sakzad and Ron Steinfeld and Joseph Liu and Dawu Gu</title>
+<description><![CDATA[We revisit the method of designing public-key puncturable encryption schemes and present a generic conversion by leveraging the techniques of distributed key-distribution and revocable encryption. In particular, we first introduce a refined version of identity-based revocable encryption, named key-homomorphic identity-based revocable key encapsulation mechanism with extended correctness. Then, we propose a generic construction of puncturable key encapsulation mechanism from the former by merging the idea of distributed key-distribution. Compared to the state-of-the-art, our generic construction supports unbounded number of punctures and multiple tags per message, thus achieving more fine-grained revocation of decryption capability. Further, it does not rely on random oracles, not suffer from non-negligible correctness error, and results in a variety of efficient schemes with distinct features. More precisely, we obtain the first scheme with very compact ciphertexts in the standard model, and the first scheme with support for both unbounded size of tags per ciphertext and unbounded punctures as well as constant-time puncture operation. Moreover, we get a comparable scheme proven secure under the standard DBDH assumption, which enjoys both faster encryption and decryption than previous works based on the same assumption, especially when the number of tags associated with the ciphertext is large.
+]]></description>
+<guid>https://eprint.iacr.org/2020/126</guid>
+</item>
+<item>
+<link>https://eprint.iacr.org/2020/121</link>
+<title><![CDATA[When HEAAN Meets FV: a New Somewhat Homomorphic Encryption with Reduced Memory Overhead]]>, by Hao Chen and Ilia Iliashenko and Kim Laine</title>
+<description><![CDATA[We demonstrate how to reduce the memory overhead of somewhat homomorphic encryption (SHE) while computing on numerical data. We design a hybrid SHE scheme that exploits the packing algorithm of the HEAAN scheme and the variant of the FV scheme by Bootland et al. The ciphertext size of the resulting scheme is 3-18 times smaller than in HEAAN to compute polynomial functions of depth 4 while packing a small number of data values. Furthermore, our scheme has smaller ciphertexts even with larger packing capacities (256-2048 values).
+]]></description>
+<guid>https://eprint.iacr.org/2020/121</guid>
+</item>
+<item>
+<link>https://eprint.iacr.org/2020/091</link>
+<title><![CDATA[Enabling Faster Operations for Deeper Circuits in Full RNS Variants of FV-like Somewhat Homomorphic Encryption]]>, by Jonathan Takeshita and Matthew Schoenbauer and Ryan Karl and Taeho Jung</title>
+<description><![CDATA[Though Fully Homomorphic Encryption (FHE) has been realized, most practical implementations utilize leveled Somewhat Homomorphic Encryption (SHE) schemes, which have limits on the multiplicative depth of the circuits they can evaluate and avoid computationally intensive bootstrapping. Many SHE schemes exist, among which those based on Ring Learning With Error (RLWE) with operations on large polynomial rings are popular. Of these, variants allowing operations to occur fully in Residue Number Systems (RNS) have been constructed. This optimization allows homomorphic operations directly on RNS components without needing to reconstruct numbers from their RNS representation, making SHE implementations faster and highly parallel. In this paper, we present a set of optimizations to a popular RNS variant of the B/FV encryption scheme that allow for the use of significantly larger ciphertext moduli (e.g., thousands of bits) without increased overhead due to excessive numbers of RNS components or computational overhead, as well as computational optimizations. This allows for the use of larger ciphertext moduli, which leads to a higher multiplicative depth with the same computational overhead. Our experiments show that our optimizations yield runtime improvements of up to 4.48 for decryption and 14.68 for homomorphic multiplication for large ciphertext moduli.
+]]></description>
+<guid>https://eprint.iacr.org/2020/091</guid>
+</item>
+<item>
+<link>https://eprint.iacr.org/2020/086</link>
+<title><![CDATA[Bootstrapping in FHEW-like Cryptosystems]]>, by Daniele Micciancio and Yuriy Polyakov</title>
+<description><![CDATA[FHEW and TFHE are fully homomorphic encryption (FHE) cryptosystems that can evaluate arbitrary Boolean circuits by bootstrapping after each gate evaluation. The FHEW cryptosystem was originally designed based on standard (Ring) LWE assumptions, and its initial implementation was able to run bootstrapping in  less than 1 second. The TFHE cryptosystem used somewhat stronger assumptions, such as LWE over torus and binary secret distribution, and applied several other optimizations to reduce the bootstrapping runtime to less than 0.1 second. Up to now, the gap between the underlying security assumptions prevented a fair comparison of the cryptosystems for same security settings.
+
+We present a unified framework that includes the original and extended variants of both FHEW and TFHE cryptosystems, and implement it in PALISADE using modular arithmetic. Our analysis shows that the main distinction between the cryptosystems is the bootstrapping procedure used: Alperin-Sherif--Peikert (AP) for FHEW vs. Gama--Izabachene--Nguyen--Xie (GINX) for TFHE. All other algorithmic optimizations in TFHE equally apply to both cryptosystems. We extend the GINX bootstrapping to ternary uniform and Gaussian secret distributions, which are included in the HE community security standard. Our comparison of the AP and GINX bootstrapping methods for different secret distributions suggests that the TFHE/GINX cryptosystem provides better performance for binary and ternary secrets while FHEW/AP is faster for Gaussian secrets. We make a recommendation to consider the variants of FHEW and TFHE cryptosystems based on ternary and Gaussian secrets for standardization by the HE community.
+]]></description>
+<guid>https://eprint.iacr.org/2020/086</guid>
+</item>
+<item>
+<link>https://eprint.iacr.org/2020/062</link>
+<title><![CDATA[Lift-and-Shift: Obtaining Simulation Extractable Subversion and Updatable SNARKs Generically]]>, by Behzad Abdolmaleki and Sebastian Ramacher and Daniel Slamanig</title>
+<description><![CDATA[Zero-knowledge proofs and in particular succinct non-interactive zero-knowledge proofs (so called zk-SNARKs) are getting increasingly used in real-world applications, with cryptocurrencies being the prime example. Simulation extractability (SE) is a strong security notion of zk-SNARKs which informally ensures non-malleability of proofs. This property is acknowledged as being highly important by leading companies in this field such as Zcash and supported by various attacks against the malleability of cryptographic primitives in the past. Another problematic issue for the practical use of zk-SNARKs is the requirement of a fully trusted setup, as especially for large-scale decentralized applications finding a trusted party that runs the setup is practically impossible. Quite recently, the study of approaches to relax or even remove the trust in the setup procedure, and in particular subversion as well as updatable zk-SNARKs (with latter being the most promising approach), has been initiated and received considerable attention since then. Unfortunately, so far SE-SNARKs with aforementioned properties are only constructed in an ad-hoc manner and no generic techniques are available.
+
+In this paper we are interested in such generic techniques and therefore firstly revisit the only available lifting technique due to Kosba et al. (called COCO) to generically obtain SE-SNARKs. By exploring the design space of many recently proposed SNARK- and STARK-friendly symmetric-key primitives we thereby achieve significant improvements in the prover computation and proof size. Unfortunately, the COCO framework as well as our improved version (called OCOCO) is not compatible with updatable SNARKs. Consequently, we propose a novel generic lifting transformation called Lamassu. It is built using different underlying ideas compared to COCO (and OCOCO). In contrast to COCO it only requires key-homomorphic signatures (which allow to shift keys) covering well studied schemes such as Schnorr or ECDSA. This makes Lamassu highly interesting, as by using the novel concept of so called updatable signatures, which we introduce in this paper, we can prove that Lamassu preserves the subversion and in particular updatable properties of the underlying zk-SNARK. This makes Lamassu the first technique to also generically obtain SE subversion and updatable SNARKs. As its performance compares favorably to OCOCO, Lamassu is an attractive alternative that in contrast to OCOCO is only based on well established cryptographic assumptions.
+]]></description>
+<guid>https://eprint.iacr.org/2020/062</guid>
+</item>
+<item>
+<link>https://eprint.iacr.org/2020/015</link>
+<title><![CDATA[Efficient Homomorphic Conversion Between (Ring) LWE Ciphertexts]]>, by Hao Chen and Wei Dai and Miran Kim and Yongsoo Song</title>
+<description><![CDATA[In the past few years, significant progresses on homomorphic encryption (HE) have been made toward both theory and practice. The most promising HE schemes are based on the hardness of the Learning With Errors (LWE) problem or its ring variant (RLWE).
+In this work, we present new conversion algorithms which switch between different (R)LWE-based HE schemes to take advantages of them.
+Specifically, we present and combine three ideas to improve the key-switching procedure between LWE ciphertexts, transformation from LWE to RLWE, as well as packing of multiple LWE ciphertexts in a single RLWE encryption.
+Finally, we demonstrate an application of building a secure channel between a client and a cloud server with lightweight encryption, low communication cost, and capability of homomorphic computation.
+]]></description>
+<guid>https://eprint.iacr.org/2020/015</guid>
+</item>
+<item>
+<link>https://eprint.iacr.org/2019/1066</link>
+<title><![CDATA[HEAX: An Architecture for Computing on Encrypted Data]]>, by M. Sadegh Riazi and Kim Laine and Blake Pelton and Wei Dai</title>
+<description><![CDATA[With the rapid increase in cloud computing, concerns surrounding data privacy, security, and confidentiality also have been increased significantly. Not only cloud providers are susceptible to internal and external hacks, but also in some scenarios, data owners cannot outsource the computation due to privacy laws such as GDPR, HIPAA, or CCPA. Fully Homomorphic Encryption (FHE) is a groundbreaking invention in cryptography that, unlike traditional cryptosystems, enables computation on encrypted data without ever decrypting it. However, the most critical obstacle in deploying FHE at large-scale is the enormous computation overhead.
+
+In this paper, we present HEAX, a novel hardware architecture for FHE that achieves unprecedented performance improvement. HEAX leverages multiple levels of parallelism, ranging from ciphertext-level to fine-grained modular arithmetic level. Our first contribution is a new highly-parallelizable architecture for number-theoretic transform (NTT) which can be of independent interest as NTT is frequently used in many lattice-based cryptography systems. Building on top of NTT engine, we design a novel architecture for computation on homomorphically encrypted data. We also introduce several techniques to enable an end-to-end, fully pipelined design as well as reducing on-chip memory consumption. Our implementation on reconfigurable hardware demonstrates 164-268× performance improvement for a wide range of FHE parameters.
+]]></description>
+<guid>https://eprint.iacr.org/2019/1066</guid>
+</item>
+<item>
+<link>https://eprint.iacr.org/2019/493</link>
+<title><![CDATA[Evaluating the effectiveness of heuristic worst-case noise analysis in FHE]]>, by Anamaria Costache and Kim Laine and Rachel Player</title>
+<description><![CDATA[The purpose of this paper is to test the accuracy of worst-case heuristic bounds on the noise growth in ring-based homomorphic encryption schemes. We use the methodology of Iliashenko (PhD thesis, 2019) to provide a new heuristic noise analysis for the BGV scheme. We demonstrate that for both the BGV and FV schemes, this approach gives tighter bounds than previous heuristic approaches, by as much as 10 bits of noise budget. Then, we provide experimental data on the noise growth of HElib and SEAL ciphertexts, in order to evaluate how well the  heuristic bounds model the noise growth in practice. We find that, in spite of our improvements, there is still a gap between the heuristic estimate of the noise and the observed noise in practice. We extensively justify that the heuristic worst-case approach inherently leads to this gap, and hence leads to selecting significantly larger parameters than needed. We propose tightening this gap as an open problem, and suggest a possible solution. As an additional contribution, we update the comparison between the two schemes presented by Costache and Smart (CT-RSA, 2016). Using the new analysis, we show that FV slightly outperforms BGV, even for large plaintext moduli, well beyond the crossover point reported by Costache and Smart.
+]]></description>
+<guid>https://eprint.iacr.org/2019/493</guid>
+</item>
+<item>
+<link>https://eprint.iacr.org/2019/319</link>
+<title><![CDATA[PGC: Pretty Good Decentralized Confidential Payment System with Auditability]]>, by Yu Chen and Xuecheng Ma and Cong Tang and Man Ho Au</title>
+<description><![CDATA[Modern cryptocurrencies such as Bitcoin and Ethereum achieve decentralization by replacing a trusted center with a distributed and append-only ledger (known as blockchain). However, removing this trust center comes at significant cost of privacy due to the public nature of blockchain. Many existing cryptocurrencies fail to provide transaction anonymity and confidentiality, meaning that addresses of sender, receiver and transfer amount are publicly accessible.  As the privacy concerns grow, a number of academic work have sought to enhance privacy by leveraging cryptographic tools. Though strong privacy is appealing, it might be overkilled or even could be abused in some cases. In decentralized payment systems, anonymity poses great challenges to system's auditability, which is a crucial property for scenarios that require regulatory compliance and dispute arbitration guarantee.       
+
+Aiming for a middle ground between privacy and auditability, we introduce the notion of decentralized confidential payment (DCP) system with auditability. In addition to offering transaction confidentiality, DCP supports privacy-preserving audit in which an external party can specify a set of transactions and then request the participant to prove the compliance with a large class of policies. We present a generic construction of auditable DCP system from integrated signature and encryption scheme and non-interactive zero-knowledge proof systems. We then instantiate of our generic construction by carefully designing the underlying building blocks, yielding a standalone cryptocurrency called PGC. In PGC, the setup is transparent trusted setup, transactions are less than 1.3KB and take under 38ms to generate and 15ms to verify.  
+
+At the core of PGC is an additively homomorphic public-key encryption scheme that we introduce, twisted ElGamal, which is not only as secure as standard exponential ElGamal, but also quite friendly to Sigma protocols and range proofs. This enables us to easily devise zero-knowledge proofs for basic correctness of transactions as well as various application-dependent policies in a modular fashion. Moreover, it is pretty efficient. Compared with the most efficient reported implementation of Paillier PKE, twisted ElGamal is an order of magnitude better in key and ciphertext size and decryption speed (for small message space), two order of magnitude better in encryption speed. We believe twisted ElGamal is of independent interest on its own right.
+]]></description>
+<guid>https://eprint.iacr.org/2019/319</guid>
+</item>
+<item>
+<link>https://eprint.iacr.org/2019/211</link>
+<title><![CDATA[MonZa: Fast Maliciously Secure Two Party Computation on Z_{2^k}]]>, by Dario Catalano and Mario Di Raimondo and Dario Fiore and Irene Giacomelli</title>
+<description><![CDATA[In this paper we present a new 2-party protocol for secure computation over rings of the form $\mathbb{Z}_{2^k}$. As many recent efficient MPC protocols supporting dishonest majority, our protocol consists of a heavier (input-independent) pre-processing phase and a very efficient online stage. Our offline phase is similar to BeDOZa (Bendlin et al. Eurocrypt 2011) but employs Joye-Libert (JL, Eurocrypt 2013) as underlying homomorphic cryptosystem and, notably, it can be proven secure without resorting to the expensive sacrifice step. JL turns out to be particularly well suited for the ring setting as it naturally supports $\mathbb{Z}_{2^k} $ as underlying message space. Moreover, it enjoys several additional properties (such has valid ciphertext-verifiability and efficiency) that make it a very good fit for MPC in general. As a main technical contribution we show how to take advantage of all these properties (and of more properties that we introduce in this work, such as a ZK proof of correct multiplication) in order to design a two-party protocol that is efficient, fast and easy to implement in practice.
+Our solution is particularly well suited for relatively large choices of $k$ (e.g., $k=128$), but compares favorably with the state of the art solution of SPDZ2k (Cramer  et al. Crypto 2018) already for the practically very relevant case of $k=64$.
+]]></description>
+<guid>https://eprint.iacr.org/2019/211</guid>
+</item>
+<item>
+<link>https://eprint.iacr.org/2019/175</link>
+<title><![CDATA[The Communication Complexity of Threshold Private Set Intersection]]>, by Satrajit Ghosh and Mark Simkin</title>
+<description><![CDATA[Threshold private set intersection enables Alice and Bob who hold sets $A$ and $B$ of size $n$ to compute the intersection $A \cap B$ if the sets do not differ by more than some threshold parameter $t$.
+In this work, we investigate the communication complexity of this problem and we establish the first upper and lower bounds.
+We show that any protocol has to have a communication complexity of $\Omega(t)$.
+We show that an almost matching upper bound of $\tilde{\mathcal{O}}(t)$ can be obtained via fully homomorphic encryption.
+We present a computationally more efficient protocol based on weaker assumptions, namely additively homomorphic encryption, with a communication complexity of $\tilde{\mathcal{O}}(t^2)$.
+For applications like biometric authentication, where a given fingerprint has to have a large intersection with a fingerprint from a database, our protocols may result in significant communication savings.
+
+Prior to this work, all previous protocols had a communication complexity of $\Omega(n)$.
+Our protocols are the first ones with communication complexities that mainly depend on the threshold parameter $t$ and only logarithmically on the set size $n$.
+]]></description>
+<guid>https://eprint.iacr.org/2019/175</guid>
+</item>
+<item>
+<link>https://eprint.iacr.org/2018/470</link>
+<title><![CDATA[The Usefulness of Sparsifiable Inputs: How to Avoid Subexponential iO]]>, by Thomas Agrikola and Geoffroy Couteau and Dennis Hofheinz</title>
+<description><![CDATA[We consider the problem of removing subexponential reductions to indistinguishability obfuscation (iO) in the context of obfuscating probabilistic programs. Specifically, we show how to apply complexity absorption (Zhandry, Crypto 2016) to the recent notion of probabilistic indistinguishability obfuscation (piO, Canetti et al., TCC 2015). As a result, we obtain a variant of piO which allows to obfuscate a large class of probabilistic programs, from polynomially secure indistinguishability obfuscation and extremely lossy functions. Particularly, our piO variant is able to obfuscate circuits with specific input domains regardless of the performed computation. We then revisit several (direct or indirect) applications of piO, and obtain
+
+-- a fully homomorphic encryption scheme (without circular security assumptions),
+
+-- a multi-key fully homomorphic encryption scheme with threshold decryption,
+
+-- an encryption scheme secure under arbitrary key-dependent messages,
+
+-- a spooky encryption scheme for all circuits,
+
+-- a function secret sharing scheme with additive reconstruction for all circuits,
+
+all from polynomially secure iO, extremely lossy functions, and, depending on the scheme, also other (but polynomial and comparatively mild) assumptions. All of these assumptions are implied by polynomially secure iO and the (non-polynomial, but very well-investigated) exponential DDH assumption. Previously, all the above applications required to assume the subexponential security of iO (and more standard assumptions).
+]]></description>
+<guid>https://eprint.iacr.org/2018/470</guid>
+</item>
+</channel></rss>
