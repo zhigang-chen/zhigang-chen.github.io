@@ -1,1 +1,1107 @@
-[{"id": "2020/126", "authors": "Shi-Feng Sun and Amin Sakzad and Ron Steinfeld and Joseph Liu and Dawu Gu", "title": "Public-Key Puncturable Encryption: Modular and Compact Constructions"}, {"id": "2020/121", "authors": "Hao Chen and Ilia Iliashenko and Kim Laine", "title": "When HEAAN Meets FV: a New Somewhat Homomorphic Encryption with Reduced Memory Overhead"}, {"id": "2020/091", "authors": "Jonathan Takeshita and Matthew Schoenbauer and Ryan Karl and Taeho Jung", "title": "Enabling Faster Operations for Deeper Circuits in Full RNS Variants of FV-like Somewhat Homomorphic Encryption"}, {"id": "2020/086", "authors": "Daniele Micciancio and Yuriy Polyakov", "title": "Bootstrapping in FHEW-like Cryptosystems"}, {"id": "2020/062", "authors": "Behzad Abdolmaleki and Sebastian Ramacher and Daniel Slamanig", "title": "Lift-and-Shift: Obtaining Simulation Extractable Subversion and Updatable SNARKs Generically"}, {"id": "2020/015", "authors": "Hao Chen and Wei Dai and Miran Kim and Yongsoo Song", "title": "Efficient Homomorphic Conversion Between (Ring) LWE Ciphertexts"}, {"id": "2019/1066", "authors": "M. Sadegh Riazi and Kim Laine and Blake Pelton and Wei Dai", "title": "HEAX: An Architecture for Computing on Encrypted Data"}, {"id": "2019/493", "authors": "Anamaria Costache and Kim Laine and Rachel Player", "title": "Evaluating the effectiveness of heuristic worst-case noise analysis in FHE"}, {"id": "2019/319", "authors": "Yu Chen and Xuecheng Ma and Cong Tang and Man Ho Au", "title": "PGC: Pretty Good Decentralized Confidential Payment System with Auditability"}, {"id": "2019/211", "authors": "Dario Catalano and Mario Di Raimondo and Dario Fiore and Irene Giacomelli", "title": "MonZa: Fast Maliciously Secure Two Party Computation on Z_{2^k}"}, {"id": "2019/175", "authors": "Satrajit Ghosh and Mark Simkin", "title": "The Communication Complexity of Threshold Private Set Intersection"}, {"id": "2018/470", "authors": "Thomas Agrikola and Geoffroy Couteau and Dennis Hofheinz", "title": "The Usefulness of Sparsifiable Inputs: How to Avoid Subexponential iO"}]
+[
+{
+"id":"2020/276",                 
+"title":"CryptoPIM:  In-memory  Acceleration  for  Lattice-based  Cryptographic  Hardware",
+"authors":"Hamid  Nejatollahi   and  Saransh  Gupta   and  Mohsen  Imani   and  Tajana  Simunic  Rosing   and  Rosario  Cammarota   and  Nikil  Dutt"},
+
+{
+"id":"2020/272",                 
+"title":"Privacy-Preserving  Fast   and  Exact  Linear  Equations  Solver  with  Fully  Homomorphic  Encryption",
+"authors":"Keita  Arimitsu   and  Kazuki  Otsuka"},
+
+{
+"id":"2020/264",                 
+"title":"Plaintext  Recovery  Attacks  against  Linearly  Decryptable  Fully  Homomorphic  Encryption  Schemes",
+"authors":"Nicholas  Mainardi   and  Alessandro  Barenghi   and  Gerardo  Pelosi"},
+
+{
+"id":"2020/222",                 
+"title":"Improving  Speed   and  Security  in  Updatable  Encryption  Schemes",
+"authors":"Dan  Boneh   and  Saba  Eskandarian   and  Sam  Kim   and  Maurice  Shih"},
+
+{
+"id":"2020/180",                 
+"title":"Multikey  FHE  in  the  Plain  Model",
+"authors":"Prabhanjan  Ananth   and  Abhishek  Jain   and  ZhengZhong  Jin   and  Giulio  Malavolta"},
+
+{
+"id":"2020/121",                 
+"title":"When  HEAAN  Meets  FV:  a  New  Somewhat  Homomorphic  Encryption  with  Reduced  Memory  Overhead",
+"authors":"Hao  Chen   and  Ilia  Iliashenko   and  Kim  Laine"},
+
+{
+"id":"2020/091",                 
+"title":"Enabling  Faster  Operations  for  Deeper  Circuits  in  Full  RNS  Variants  of  FV-like  Somewhat  Homomorphic  Encryption",
+"authors":"Jonathan  Takeshita   and  Matthew  Schoenbauer   and  Ryan  Karl   and  Taeho  Jung"},
+
+{
+"id":"2020/086",                 
+"title":"Bootstrapping  in  FHEW-like  Cryptosystems",
+"authors":"Daniele  Micciancio   and  Yuriy  Polyakov"},
+
+{
+"id":"2020/015",                 
+"title":"Efficient  Homomorphic  Conversion  Between (Ring)  LWE  Ciphertexts",
+"authors":"Hao  Chen   and  Wei  Dai   and  Miran  Kim   and  Yongsoo  Song"},
+
+{
+"id":"2019/1497",                  
+"title":"Analysis  of  Modified  Shell  Sort  for  Fully  Homomorphic  Encryption",
+"authors":"Joon-Woo  Lee   and  Young-Sik  Kim   and  Jong-Seon  No"},
+
+{
+"id":"2019/1483",                  
+"title":"Communication--Computation  Trade-offs  in  PIR",
+"authors":"Asra  Ali   and  Tancrède  Lepoint   and  Sarvar  Patel   and  Mariana  Raykova   and  Phillipp  Schoppmann   and  Karn  Seth   and  Kevin  Yeo"},
+
+{
+"id":"2019/1446",                  
+"title":"Boolean  functions  for  homomorphic-friendly  stream  ciphers",
+"authors":"Claude  Carlet   and  Pierrick  Méaux"},
+
+{
+"id":"2019/1402",                  
+"title":"Automatize  parameter  tuning  in  Ring-Learning-With-Errors-based  leveled  homomorphic  cryptosystem  implementations",
+"authors":"Vincent  HERBERT"},
+
+{
+"id":"2019/1375",                  
+"title":"New  ideas  to  build  noise-free  homomorphic  cryptosystems",
+"authors":"Gérald  Gavin   and  Sandrine  Tainturier"},
+
+{
+"id":"2019/1320",                  
+"title":"Homomorphic  Encryption  Random  Beacon",
+"authors":"Alisa  Cherniaeva   and  Ilia  Shirobokov   and  Omer  Shlomovits"},
+
+{
+"id":"2019/1300",                  
+"title":"Actively  Secure  Setup  for  SPDZ",
+"authors":"Dragos  Rotaru   and  Nigel  P.  Smart   and  Titouan  Tanguy   and  Frederik  Vercauteren   and  Tim  Wood"},
+
+{
+"id":"2019/1282",                  
+"title":"Privacy-Preserving  Decision  Tree  Training   and  Prediction  against  Malicious  Server",
+"authors":"Adi  Akavia   and  Max  Leibovich   and  Yehezkel  S.  Resheff   and  Roey  Ron   and  Moni  Shahar   and  Margarita  Vald"},
+
+{
+"id":"2019/1270",                  
+"title":"SAVER:  Snark-friendly,  Additively-homomorphic,   and  Verifiable  Encryption   and  decryption  with  Rerandomization",
+"authors":"Jiwon  Lee   and  Jaekyoung  Choi   and  Jihye  Kim   and  Hyunok  Oh"},
+
+{
+"id":"2019/1266",                  
+"title":"Note  on  the  noise  growth  of  the  RNS  variants  of  the  BFV  scheme",
+"authors":"Jean  Claude  Bajard   and  Julien  Eynard   and  Paulo  Martins   and  Leonel  Sousa   and  Vincent  Zucca"},
+
+{
+"id":"2019/1238",                  
+"title":"Linear-Regression  on  Packed  Encrypted  Data  in  the  Two-Server  Model",
+"authors":"Adi  Akavia   and  Hayim  Shaul   and  Mor  Weiss   and  Zohar  Yakhini"},
+
+{
+"id":"2019/1234",                  
+"title":"Efficient  Homomorphic  Comparison  Methods  with  Optimal  Complexity",
+"authors":"Jung  Hee  Cheon   and  Dongwoo  Kim   and  Duhyeong  Kim"},
+
+{
+"id":"2019/1233",                  
+"title":"Arbitrary  Univariate  Function  Evaluation   and  Re-Encryption  Protocols  over  Lifted-ElGamal  Type  Ciphertexts",
+"authors":"Koji  Nuida   and  Satsuya  Ohata   and  Shigeo  Mitsunari   and  Nuttapong  Attrapadung"},
+
+{
+"id":"2019/1148",                  
+"title":"On  the  Feasibility   and  Impact  of  Standardising  Sparse-secret  LWE  Parameter  Sets  for  Homomorphic  Encryption",
+"authors":"Benjamin  R.  Curtis   and  Rachel  Player"},
+
+{
+"id":"2019/1114",                  
+"title":"A  Hybrid  of  Dual   and  Meet-in-the-Middle  Attack  on  Sparse   and  Ternary  Secret  LWE",
+"authors":"Jung  Hee  Cheon   and  Minki  Hhan   and  Seungwan  Hong   and  Yongha  Son"},
+
+{
+"id":"2019/1113",                  
+"title":"Towards  a  Homomorphic  Machine  Learning  Big  Data  Pipeline  for  the  Financial  Services  Sector",
+"authors":"Oliver  Masters   and  Hamish  Hunt   and  Enrico  Steffinlongo   and  Jack  Crawford   and  Flavio  Bergamaschi   and  Maria  E.  Dela  Rosa   and  Caio  C.  Quini   and  Camila  T.  Alves   and  Feranda  de  Souza   and  Deise  G.  Ferreira"},
+
+{
+"id":"2019/1109",                  
+"title":"Revisiting  Multivariate  Ring  Learning  with  Errors   and  its  Applications  on  Lattice-based  Cryptography",
+"authors":"Alberto  Pedrouzo-Ulloa   and  Juan  Ramón  Troncoso-Pastoriza   and  Nicolas  Gama   and  Mariya  Georgieva   and  Fernando  Pérez-González"},
+
+{
+"id":"2019/1087",                  
+"title":"Cryptanalysis  of  a  Protocol  for  Efficient  Sorting  on  SHE  Encrypted  Data ",
+"authors":"Shyam  Murthy   and  Srinivas  Vivek"},
+
+{
+"id":"2019/1082",                  
+"title":"On  the  Security  of  Multikey  Homomorphic  Encryption",
+"authors":"Hyang-Sook  Lee   and  Jeongeun  Park"},
+
+{
+"id":"2019/1066",                  
+"title":"HEAX:  An  Architecture  for  Computing  on  Encrypted  Data",
+"authors":"M.  Sadegh  Riazi   and  Kim  Laine   and  Blake  Pelton   and  Wei  Dai"},
+
+{
+"id":"2019/1023",                  
+"title":"Randomly  Rotate  Qubits  Compute   and  Reverse ---  IT-Secure  Non-Interactive  Fully-Compact  Homomorphic  Quantum  Computations  over  Classical  Data  Using  Random  Bases",
+"authors":"Dor  Bitan   and  Shlomi  Dolev"},
+
+{
+"id":"2019/1019",                  
+"title":"Revisiting  the  Hybrid  attack  on  sparse   and  ternary  secret  LWE",
+"authors":"Yongha  Son   and  Jung  Hee  Cheon"},
+
+{
+"id":"2019/988",                 
+"title":"RAMPARTS:  A  Programmer-Friendly  System  for  Building  Homomorphic  Encryption  Applications",
+"authors":"David  W.  Archer   and  Jose  Manuel  Calderon  Trilla   and  Jason  Dagit   and  Alex  J.  Malozemoff   and  Yuriy  Polyakov   and  Kurt  Rohloff   and  Gerard  Ryan"},
+
+{
+"id":"2019/976",                 
+"title":"Towards  real-time  hidden  speaker  recognition  by  means  of  fully  homomorphic  encryption",
+"authors":"Martin  Zuber   and  Sergiu  Carpov   and  Renaud  Sirdey"},
+
+{
+"id":"2019/963",                 
+"title":"Faster  homomorphic  encryption  is  not  enough:  improved  heuristic  for  multiplicative  depth  minimization  of  Boolean  circuits",
+"authors":"Pascal  Aubry   and  Sergiu  Carpov   and  Renaud  Sirdey"},
+
+{
+"id":"2019/947",                 
+"title":"nGraph-HE2:  A  High-Throughput  Framework  for  Neural  Network  Inference  on  Encrypted  Data",
+"authors":"Fabian  Boemer   and  Anamaria  Costache   and  Rosario  Cammarota   and  Casimir  Wierzynski "},
+
+{
+"id":"2019/939",                 
+"title":"Homomorphic  Encryption  Standard",
+"authors":"Martin  Albrecht   and  Melissa  Chase   and  Hao  Chen   and  Jintai  Ding   and  Shafi  Goldwasser   and  Sergey  Gorbunov   and  Shai  Halevi   and  Jeffrey  Hoffstein   and  Kim  Laine   and  Kristin  Lauter   and  Satya  Lokam   and  Daniele  Micciancio   and  Dustin  Moody   and  Travis  Morrison   and  Amit  Sahai   and  Vinod  Vaikuntanathan "},
+
+{
+"id":"2019/902",                 
+"title":"Fractional  LWE:  a  nonlinear  variant  of  LWE",
+"authors":"Gérald  Gavin   and  Stéphane  Bonnevay"},
+
+{
+"id":"2019/855",                 
+"title":"WIDESEAS:  A  lattice-based  PIR  scheme  implemented  in  EncryptedQuery",
+"authors":"Dominic  Dams   and  Jeff  Lataille   and  Rino  Sanchez   and  John  Wade"},
+
+{
+"id":"2019/820",                 
+"title":"Universal  Location  Referencing   and  Homomorphic  Evaluation  of  Geospatial  Query",
+"authors":"Asma  Aloufi   and  Peizhao  Hu   and  Hang  Liu   and  Sherman  S.  M.  Chow"},
+
+{
+"id":"2019/819",                 
+"title":"Blindfolded  Evaluation  of  Random  Forests  with  Multi-Key  Homomorphic  Encryption",
+"authors":"Asma  Aloufi   and  Peizhao  Hu   and  Harry  W.  H.  Wong   and  Sherman  S.  M.  Chow"},
+
+{
+"id":"2019/736",                 
+"title":"Onion  Ring  ORAM:  Efficient  Constant  Bandwidth  Oblivious  RAM  from (Leveled)  TFHE",
+"authors":"Hao  Chen   and  Ilaria  Chillotti   and  Ling  Ren"},
+
+{
+"id":"2019/720",                 
+"title":"Leveraging  Linear  Decryption:  Rate-1  Fully-Homomorphic  Encryption   and  Time-Lock  Puzzles",
+"authors":"Zvika  Brakerski   and  Nico  Döttling   and  Sanjam  Garg   and  Giulio  Malavolta "},
+
+{
+"id":"2019/688",                 
+"title":"Better  Bootstrapping  for  Approximate  Homomorphic  Encryption",
+"authors":"Kyoohyung  Han   and  Dohyeong  Ki"},
+
+{
+"id":"2019/677",                 
+"title":"A  Note  on  Lower  Digits  Extraction  Polynomial  for  Bootstrapping",
+"authors":"Mingjia  Huo   and  Kewen  Wu   and  Qi  Ye"},
+
+{
+"id":"2019/635",                 
+"title":"Homomorphic  Time-Lock  Puzzles   and  Applications",
+"authors":"Giulio  Malavolta   and  Sri  Aravinda  Krishnan  Thyagarajan"},
+
+{
+"id":"2019/632",                 
+"title":"Fully  Homomorphic  Encryption  for  RAMs",
+"authors":"Ariel  Hamlin   and  Justin  Holmgren   and  Mor  Weiss   and  Daniel  Wichs"},
+
+{
+"id":"2019/596",                 
+"title":"Discretisation   and  Product  Distributions  in  Ring-LWE",
+"authors":"Sean  Murphy   and  Rachel  Player"},
+
+{
+"id":"2019/594",                 
+"title":"Cryptanalysis  of  Ring  Homomorphic  Encryption  Schemes",
+"authors":"Mugurel  Barcau   and  Vicentiu  Pasol"},
+
+{
+"id":"2019/591",                 
+"title":"Simulating  Homomorphic  Evaluation  of  Deep  Learning  Predictions",
+"authors":"Christina  Boura   and  Nicolas  Gama   and  Mariya  Georgieva   and  Dimitar  Jetchev"},
+
+{
+"id":"2019/588",                 
+"title":"Formal  Notions  of  Security  for  Verifiable  Homomorphic  Encryption",
+"authors":"Jakub  Klemsa   and  Ivana  Trummová"},
+
+{
+"id":"2019/577",                 
+"title":"Improved  Multiplication  Triple  Generation  over  Rings  via  RLWE-based  AHE",
+"authors":"Deevashwer  Rathee   and  Thomas  Schneider   and  K.  K.  Shukla"},
+
+{
+"id":"2019/561",                 
+"title":"Faster  Bootstrapping  of  FHE  over  the  integers  with  large  prime  message  space",
+"authors":"Zhizhu  Lian   and  Yupu  Hu   and  Hu  Chen   and   Baocang  Wang"},
+
+{
+"id":"2019/524",                 
+"title":"Efficient  Multi-Key  Homomorphic  Encryption  with  Packed  Ciphertexts  with  Application  to  Oblivious  Neural  Network  Inference",
+"authors":"Hao  Chen   and  Wei  Dai   and  Miran  Kim   and  Yongsoo  Song"},
+
+{
+"id":"2019/520",                 
+"title":"A  Note  on  Sub-Gaussian  Random  Variables",
+"authors":"Benjamin  M.  Case   and  Colin  Gallagher   and  Shuhong  Gao"},
+
+{
+"id":"2019/500",                 
+"title":"An  HPR  variant  of  the  FV  scheme:  Computationally  Cheaper,  Asymptotically  Faster",
+"authors":"Jean-Claude  Bajard   and  Julien  Eynard   and  Paulo  Martins   and  Leonel  Sousa   and  Vincent  Zucca"},
+
+{
+"id":"2019/493",                 
+"title":"Evaluating  the  effectiveness  of  heuristic  worst-case  noise  analysis  in  FHE",
+"authors":"Anamaria  Costache   and  Kim  Laine   and  Rachel  Player"},
+
+{
+"id":"2019/483",                 
+"title":"Improved  Filter  Permutators:  Combining  Symmetric  Encryption  Design,  Boolean  Functions,  Low  Complexity  Cryptography,   and  Homomorphic  Encryption,  for  Private  Delegation  of  Computations",
+"authors":"Pierrick  Méaux   and  Claude  Carlet   and  Anthony  Journault   and  François-Xavier  Standaert"},
+
+{
+"id":"2019/466",       
+"title":"Privacy-Preserving  K-means  Clustering  with  Multiple  Data  Owners",
+"authors":"Jung  Hee  Cheon   and  Jinhyuck  Jeong   and  Dohyeong  Ki   and  Jiseung  Kim   and  Joohee  Lee   and  Seok  Won  Lee"},
+
+{
+"id":"2019/465",                 
+"title":"Towards  a  Practical  Cluster  Analysis  over  Encrypted  Data",
+"authors":"Jung  Hee  Cheon   and  Duhyeong  Kim   and  Jai  Hyun  Park"},
+
+{
+"id":"2019/437",                 
+"title":"Efficient  coding  for  secure  computing  with  additively-homomorphic  encrypted  data",
+"authors":"Thijs  Veugen"},
+
+{
+"id":"2019/427",                 
+"title":"Improved  Secure  Integer  Comparison  via  Homomorphic  Encryption",
+"authors":"Florian  Bourse   and  Olivier  Sanders   and  Jacques  Traoré"},
+
+{
+"id":"2019/425",                 
+"title":"Homomorphic  Training  of 30,000  Logistic  Regression  Models",
+"authors":"Flavio  Bergamaschi   and  Shai  Halevi   and  Tzipora  T.  Halevi   and  Hamish  Hunt"},
+
+{
+"id":"2019/417",                 
+"title":"Numerical  Method  for  Comparison  on  Homomorphically  Encrypted  Numbers",
+"authors":"Jung  Hee  Cheon   and  Dongwoo  Kim   and  Duhyeong  Kim   and  Hun  Hee  Lee   and  Keewoo  Lee"},
+
+{
+"id":"2019/350",                 
+"title":"nGraph-HE:  A  Graph  Compiler  for  Deep  Learning  on  Homomorphically  Encrypted  Data",
+"authors":"Fabian  Boemer   and  Yixing  Lao   and  Rosario  Cammarota   and  Casimir  Wierzynski"},
+
+{
+"id":"2019/332",                 
+"title":"Efficient  Private  Comparison  Queries  over  Encrypted  Databases  using  Fully  Homomorphic  Encryption  with  Finite  Fields",
+"authors":"Benjamin  Hong  Meng  Tan   and  Hyung  Tae  Lee   and  Huaxiong  Wang   and  Shu  Qin  Ren   and  Khin  Mi  Mi  Aung"},
+
+{
+"id":"2019/325",                 
+"title":"An  Efficient  Private  Evaluation  of  a  Decision  Graph",
+"authors":"Hiroki  Sudo   and  Koji  Nuida   and  Kana  Shimizu"},
+
+{
+"id":"2019/294",                 
+"title":"Semi-parallel  Logistic  Regression  for  GWAS  on  Encrypted  Data",
+"authors":"Miran  Kim   and  Yongsoo  Song   and  Baiyu  Li   and  Daniele  Micciancio"},
+
+{
+"id":"2019/223",                 
+"title":"Optimized  Homomorphic  Encryption  Solution  for  Secure  Genome-Wide  Association  Studies",
+"authors":"Marcelo  Blatt   and  Alexander  Gusev   and  Yuriy  Polyakov   and  Kurt  Rohloff   and  Vinod  Vaikuntanathan"},
+
+{
+"id":"2019/187",                 
+"title":"Fully  homomorphic  encryption  modulo  Fermat  numbers",
+"authors":"Antoine  Joux"},
+
+{
+"id":"2019/176",                 
+"title":"Homomorphic  Encryption  for  Finite  Automata",
+"authors":"Nicholas  Genise   and  Craig  Gentry   and  Shai  Halevi   and  Baiyu  Li   and  Daniele  Micciancio"},
+
+{
+"id":"2019/160",                 
+"title":"FPGA-based  High-Performance  Parallel  Architecture  for  Homomorphic  Computing  on  Encrypted  Data",
+"authors":"Sujoy  Sinha  Roy   and  Furkan  Turan   and  Kimmo  Jarvinen   and  Frederik  Vercauteren   and  Ingrid  Verbauwhede"},
+
+{
+"id":"2019/152",                 
+"title":"Privacy-preserving  Approximate  GWAS  computation  based  on  Homomorphic  Encryption",
+"authors":"Duhyeong  Kim   and  Yongha  Son   and  Dongwoo  Kim   and  Andrey  Kim   and  Seungwan  Hong   and  Jung  Hee  Cheon"},
+
+{
+"id":"2019/145",                 
+"title":"Achieving  GWAS  with  Homomorphic  Encryption",
+"authors":"Jun  Jie  Sim   and  Fook  Mun  Chan   and  Shibin  Chen   and  Benjamin  Hong  Meng  Tan   and  Khin  Mi  Mi  Aung"},
+
+{
+"id":"2019/116",                 
+"title":"Multi-Key  Homomophic  Encryption  from  TFHE",
+"authors":"Hao  Chen   and  Ilaria  Chillotti   and  Yongsoo  Song"},
+
+{
+"id":"2019/101",                 
+"title":"Privacy-preserving  semi-parallel  logistic  regression  training  with  Fully  Homomorphic  Encryption",
+"authors":"Sergiu  Carpov   and  Nicolas  Gama   and  Mariya  Georgieva   and  Juan  Ramon  Troncoso-Pastoriza"},
+
+{
+"id":"2019/087",                 
+"title":"The  Secure  Link  Prediction  Problem",
+"authors":"Laltu  Sardar   and  Sushmita  Ruj"},
+
+{
+"id":"2019/062",                 
+"title":"Additively  Homomorphic  IBE  from  Higher  Residuosity",
+"authors":"Michael  Clear   and  Ciaran  McGoldrick"},
+
+{
+"id":"2018/1249",                  
+"title":"Two  round  multiparty  computation  via  Multi-key  fully  homomorphic  encryption  with  faster  homomorphic  evaluations",
+"authors":"NingBo  Li   and  TanPing  Zhou   and  XiaoYuan  Yang   and  YiLiang  Han   and  Longfei  Liu   and  WenChao  Liu"},
+
+{
+"id":"2018/1245",                  
+"title":"Multi-dimensional  Packing  for  HEAAN  for  Approximate  Matrix  Arithmetics",
+"authors":"Jung  Hee  Cheon   and  Andrey  Kim   and  Donggeon  Yhee "},
+
+{
+"id":"2018/1235",                  
+"title":"Setup-Free  Secure  Search  on  Encrypted  Data:  Faster   and  Post-Processing  Free",
+"authors":"Adi  Akavia   and  Craig  Gentry   and  Shai  Halevi   and  Max  Leibovich"},
+
+{
+"id":"2018/1209",                  
+"title":"Teleportation-based  quantum  homomorphic  encryption  scheme  with  quasi-compactness   and  perfect  security",
+"authors":"Min  Liang"},
+
+{
+"id":"2018/1208",                  
+"title":"Revisiting  Orthogonal  Lattice  Attacks  on  Approximate  Common  Divisor  Problems   and  their  Applications",
+"authors":"Jun  Xu   and  Santanu  Sarkar   and  Lei  Hu"},
+
+{
+"id":"2018/1177",                  
+"title":"Excalibur  Key-Generation  Protocols  For  DAG  Hierarchic  Decryption",
+"authors":"Louis  Goubin   and  Geraldine  Monsalve   and  Juan  Reutter   and  Francisco  Vial  Prado"},
+
+{
+"id":"2018/1099",                  
+"title":"SoK:  Modular   and  Efficient  Private  Decision  Tree  Evaluation",
+"authors":"Ágnes  Kiss   and  Masoud  Naderpour   and  Jian  Liu   and  N.  Asokan   and  Thomas  Schneider"},
+
+{
+"id":"2018/1073",                  
+"title":"Faster  Homomorphic  Discrete  Fourier  Transforms   and  Improved  FHE  Bootstrapping",
+"authors":"Jung  Hee  Cheon   and  Kyoohyung  Han   and  Minki  Hhan"},
+
+{
+"id":"2018/1056",                  
+"title":"The  AlexNet  Moment  for  Homomorphic  Encryption:  HCNN,  the  First  Homomorphic  CNN  on  Encrypted  Data  with  GPUs",
+"authors":"Ahmad  Al  Badawi   and  Jin  Chao   and  Jie  Lin   and  Chan  Fook  Mun   and  Jun  Jie  Sim   and  Benjamin  Hong  Meng  Tan   and  Xiao  Nan   and  Khin  Mi  Mi  Aung   and  Vijay  Ramaseshan  Chandrasekhar"},
+
+{
+"id":"2018/1043",                  
+"title":"Improved  Bootstrapping  for  Approximate  Homomorphic  Encryption",
+"authors":"Hao  Chen   and  Ilaria  Chillotti   and  Yongsoo  Song"},
+
+{
+"id":"2018/1041",                  
+"title":"Secure  Outsourced  Matrix  Computation   and  Application  to  Neural  Networks",
+"authors":"Xiaoqian  Jiang   and  Miran  Kim   and  Kristin  Lauter   and  Yongsoo  Song"},
+
+{
+"id":"2018/1032",                  
+"title":"Conditionals  in  Homomorphic  Encryption   and  Machine  Learning  Applications",
+"authors":"Diego  Chialva   and  Ann  Dooms"},
+
+{
+"id":"2018/1025",                  
+"title":"Integer  Matrices  Homomorphic  Encryption   and  Its  application",
+"authors":"Yanan  Bai   and  Jingwei  Chen   and  Yong  Feng   and  Wenyuan  Wu"},
+
+{
+"id":"2018/1013",                  
+"title":"E3:  Accelerating  Fully  Homomorphic  Encryption  by  Bridging  Modular   and  Bit-Level  Arithmetic",
+"authors":"Eduardo  Chielle   and  Oleg  Mazonka   and  Homer  Gamil   and  Sanja  Kastratovic   and  Nektarios  Georgios  Tsoutsos   and  Michail  Maniatakos"},
+
+{
+"id":"2018/1003",                  
+"title":"Secure  Data  Retrieval  On  The  Cloud:  Homomorphic  Encryption  Meets  Coresets",
+"authors":"Adi  Akavia   and  Dan  Feldman   and  Hayim  Shaul"},
+
+{
+"id":"2018/952",                 
+"title":"Approximate  Homomorphic  Encryption  over  the  Conjugate-invariant  Ring",
+"authors":"Duhyeong  Kim   and  Yongsoo  Song"},
+
+{
+"id":"2018/895",                 
+"title":"Weak  Zero-Knowledge  Beyond  the  Black-Box  Barrier",
+"authors":"Nir  Bitansky   and  Dakshita  Khurana   and  Omer  Paneth"},
+
+{
+"id":"2018/801",                 
+"title":"Faster  PCA   and  Linear  Regression  through  Hypercubes  in  HElib",
+"authors":"Deevashwer  Rathee   and  Pradeep  Kumar  Mishra   and  Masaya  Yasuda"},
+
+{
+"id":"2018/794",                 
+"title":"Blending  FHE-NTRU  keys –  The  Excalibur  Property",
+"authors":"Louis  Goubin   and  Francisco  Vial-Prado"},
+
+{
+"id":"2018/787",                 
+"title":"Labeled  PSI  from  Fully  Homomorphic  Encryption  with  Malicious  Security",
+"authors":"Hao  Chen   and  Zhicong  Huang   and  Kim  Laine   and  Peter  Rindal"},
+
+{
+"id":"2018/785",                 
+"title":"Efficiently  Processing  Complex-Valued  Data  in  Homomorphic  Encryption",
+"authors":"Carl  Bootland   and  Wouter  Castryck   and  Ilia  Iliashenko   and  Frederik  Vercauteren"},
+
+{
+"id":"2018/758",                 
+"title":"CHIMERA:  Combining  Ring-LWE-based  Fully  Homomorphic  Encryption  Schemes",
+"authors":"Christina  Boura   and  Nicolas  Gama   and  Mariya  Georgieva   and  Dimitar  Jetchev"},
+
+{
+"id":"2018/731",                 
+"title":"An  Optimal  Distributed  Discrete  Log  Protocol  with  Applications  to  Homomorphic  Secret  Sharing",
+"authors":"Itai  Dinur   and  Nathan  Keller   and  Ohad  Klein"},
+
+{
+"id":"2018/707",                 
+"title":"Function  Secret  Sharing:  Improvements   and  Extensions",
+"authors":"Elette  Boyle   and  Niv  Gilboa   and  Yuval  Ishai"},
+
+{
+"id":"2018/694",                 
+"title":"Faster  Privacy-Preserving  Location  Proximity  Schemes",
+"authors":"Kimmo  Järvinen   and Ágnes  Kiss   and  Thomas  Schneider   and  Oleksandr  Tkachenko   and  Zheng  Yang"},
+
+{
+"id":"2018/663",                 
+"title":"Fast  Secure  Matrix  Multiplications  over  Ring-Based  Homomorphic  Encryption",
+"authors":"Pradeep  Kumar  Mishra   and  Deevashwer  Rathee   and  Dung  Hoang  Duong   and  Masaya  Yasuda"},
+
+{
+"id":"2018/662",                 
+"title":"Efficient  Logistic  Regression  on  Large  Encrypted  Data",
+"authors":"Kyoohyung  Han   and  Seungwan  Hong   and  Jung  Hee  Cheon   and  Daejun  Park"},
+
+{
+"id":"2018/637",                 
+"title":"Efficient  Fully  Homomorphic  Encryption  Scheme",
+"authors":"Shuhong  Gao"},
+
+{
+"id":"2018/626",                 
+"title":"Efficient  Evaluation  of  Low  Degree  Multivariate  Polynomials  in  Ring-LWE  Homomorphic  Encryption  Schemes",
+"authors":"Sergiu  Carpov   and  Oana  Stan"},
+
+{
+"id":"2018/589",                 
+"title":"Implementation   and  Performance  Evaluation  of  RNS  Variants  of  the  BFV  Homomorphic  Encryption  Scheme",
+"authors":"Ahmad  Al  Badawi   and  Yuriy  Polyakov   and  Khin  Mi  Mi  Aung   and  Bharadwaj  Veeravalli   and  Kurt  Rohloff"},
+
+{
+"id":"2018/565",       
+"title":"Homomorphic  Encryption  for  Approximate  Matrix  Arithmetic",
+"authors":"Jung  Hee  Cheon   and  Andrey  Kim"},
+
+{
+"id":"2018/532",                 
+"title":"Ring  packing   and  amortized  FHEW  bootstrapping",
+"authors":"Daniele  Micciancio   and  Jessica  Sorrell"},
+
+{
+"id":"2018/462",                 
+"title":"Logistic  regression  over  encrypted  data  from  fully  homomorphic  encryption",
+"authors":"Hao  Chen   and  Ran  Gilad-Bachrach   and  Kyoohyung  Han   and  Zhicong  Huang   and  Amir  Jalali   and  Kim  Laine   and  Kristin  Lauter"},
+
+{
+"id":"2018/443",                 
+"title":"Quantum  Multi-Key  Homomorphic  Encryption  for  Polynomial-Sized  Circuits",
+"authors":"Rishab  Goyal"},
+
+{
+"id":"2018/421",                 
+"title":"TFHE:  Fast  Fully  Homomorphic  Encryption  over  the  Torus",
+"authors":"Ilaria  Chillotti   and  Nicolas  Gama   and  Mariya  Georgieva   and  Malika  Izabachène"},
+
+{
+"id":"2018/411",                 
+"title":"Unsupervised  Machine  Learning  on  Encrypted  Data",
+"authors":"Angela  Jäschke   and  Frederik  Armknecht"},
+
+{
+"id":"2018/338",                 
+"title":"Quantum  FHE (Almost)  As  Secure  As  Classical",
+"authors":"Zvika  Brakerski"},
+
+{
+"id":"2018/304",                 
+"title":"Geosocial  Query  with  User-Controlled  Privacy",
+"authors":"Peizhao  Hu   and  Sherman  S.M.  Chow   and  Asma  Aloufi"},
+
+{
+"id":"2018/297",                 
+"title":"Fine-Grained  Secure  Computation",
+"authors":"Matteo  Campanelli   and  Rosario  Gennaro"},
+
+{
+"id":"2018/283",                 
+"title":"Homomorphic  Rank  Sort  Using  Surrogate  Polynomials",
+"authors":"Gizem  S.  &Ccedil;etin   and  Berk  Sunar"},
+
+{
+"id":"2018/259",                 
+"title":"The  Death   and  Rebirth  of  Privacy-Preserving  WiFi  Fingerprint  Localization  with  Paillier  Encryption",
+"authors":"Zheng  Yang   and  Kimmo  Järvinen"},
+
+{
+"id":"2018/254",                 
+"title":"Logistic  Regression  Model  Training  based  on  the  Approximate  Homomorphic  Encryption",
+"authors":"Andrey  Kim   and  Yongsoo  Song   and  Miran  Kim   and  Keewoo  Lee   and  Jung  Hee  Cheon"},
+
+{
+"id":"2018/245",                 
+"title":"Secure  Search  via  Multi-Ring  Fully  Homomorphic  Encryption",
+"authors":"Adi  Akavia   and  Dan  Feldman   and  Hayim  Shaul"},
+
+{
+"id":"2018/244",                 
+"title":"Faster  Homomorphic  Linear  Transformations  in  HElib",
+"authors":"Shai  Halevi   and  Victor  Shoup"},
+
+{
+"id":"2018/233",                 
+"title":"Privacy-Preserving  Logistic  Regression  Training",
+"authors":"Charlotte  Bonte   and  Frederik  Vercauteren "},
+
+{
+"id":"2018/232",                 
+"title":"Improved  fully  homomorphic  public-key  encryption  with  small  ciphertext  size",
+"authors":"Masahiro  Yagisawa"},
+
+{
+"id":"2018/224",                 
+"title":"Threshold  Properties  of  Prime  Power  Subgroups  with  Application  to  Secure  Integer  Comparisons",
+"authors":"Rhys  Carlton   and  Aleksander  Essex   and  Krzysztof  Kapulkin"},
+
+{
+"id":"2018/202",                 
+"title":"Doing  Real  Work  with  FHE:  The  Case  of  Logistic  Regression",
+"authors":"Jack  L.H.  Crawford   and  Craig  Gentry   and  Shai  Halevi   and  Daniel  Platt   and  Victor  Shoup"},
+
+{
+"id":"2018/201",                 
+"title":"Efficient  Parallel  Binary  Operations  on  Homomorphic  Encrypted  Real  Numbers",
+"authors":"Jim  Basilakis   and  Bahman  Javadi"},
+
+{
+"id":"2018/181",                 
+"title":"Rasta:  A  cipher  with  low  ANDdepth   and  few  ANDs  per  bit",
+"authors":"Christoph  Dobraunig   and  Maria  Eichlseder   and  Lorenzo  Grassi   and  Virginie  Lallemand   and  Gregor  Leander   and  Eik  List   and  Florian  Mendel   and  Christian  Rechberger"},
+
+{
+"id":"2018/153",                 
+"title":"Bootstrapping  for  Approximate  Homomorphic  Encryption",
+"authors":"Jung  Hee  Cheon   and  Kyoohyung  Han   and  Andrey  Kim   and  Miran  Kim   and  Yongsoo  Song"},
+
+{
+"id":"2018/117",                 
+"title":"An  Improved  RNS  Variant  of  the  BFV  Homomorphic  Encryption  Scheme",
+"authors":"Shai  Halevi   and  Yuriy  Polyakov   and  Victor  Shoup"},
+
+{
+"id":"2018/088",                 
+"title":"Fully  homomorphic  public-key  encryption  with  small  ciphertext  size",
+"authors":"Masahiro  Yagisawa"},
+
+{
+"id":"2018/074",                 
+"title":"Secure  Logistic  Regression   Based  on  Homomorphic  Encryption:  Design   and  Evaluation",
+"authors":"Miran  Kim   and  Yongsoo  Song   and  Shuang  Wang   and  Yuhou  Xia   and  Xiaoqian  Jiang"},
+
+{
+"id":"2018/073",                 
+"title":"GAZELLE:  A  Low  Latency  Framework  for  Secure  Neural  Network  Inference",
+"authors":"Chiraag  Juvekar   and  Vinod  Vaikuntanathan   and  Anantha  Chandrakasan"},
+
+{
+"id":"2018/067",                 
+"title":"Homomorphic  Lower  Digits  Removal   and  Improved  FHE  Bootstrapping",
+"authors":"Hao  Chen   and  Kyoohyung  Han"},
+
+{
+"id":"2018/035",                 
+"title":"A  Linearly  Homomorphic  Signature  Scheme  From  Weaker  Assumptions",
+"authors":"Lucas  Schabh&uuml;ser   and  Johannes  Buchmann    and  Patrick  Struck"},
+
+{
+"id":"2018/027",                 
+"title":"A  verifiable  shuffle  for  the  GSW  cryptosystem",
+"authors":"Martin  Strand"},
+
+{
+"id":"2018/026",                 
+"title":"Zero-Knowledge  Proof  of  Decryption  for  FHE  Ciphertexts",
+"authors":"Christopher  Carr   and  Anamaria  Costache   and  Gareth  T.  Davies   and  Kristian  Gjøsteen   and  Martin  Strand"},
+
+{
+"id":"2017/1230",                  
+"title":"Overdrive:  Making  SPDZ  Great  Again",
+"authors":"Marcel  Keller   and  Valerio  Pastro   and  Dragos  Rotaru"},
+
+{
+"id":"2017/1212",                  
+"title":"A  New  Crypto-Classifier  Service  for  Energy  Efficiency  in  Smart  Cities",
+"authors":"Oana  Stan   and  Mohamed-Haykel  Zayani   and  Renaud  Sirdey   and  Amira  Ben  Hamida   and  Alessandro  Ferreira  Leite   and   Mallek  Mziou-Sallami"},
+
+{
+"id":"2017/1114",                  
+"title":"Fast  Homomorphic  Evaluation  of  Deep  Discretized  Neural  Networks",
+"authors":"Florian  Bourse   and  Michele  Minelli   and  Matthias  Minihold   and  Pascal  Paillier"},
+
+{
+"id":"2017/996",                 
+"title":"Large  FHE  gates  from  Tensored  Homomorphic  Accumulator",
+"authors":"Guillaume  Bonnoron   and  Léo  Ducas   and  Max  Fillinger"},
+
+{
+"id":"2017/956",                 
+"title":"Threshold  Cryptosystems  From  Threshold  Fully  Homomorphic  Encryption",
+"authors":"Dan  Boneh   and  Rosario  Gennaro   and  Steven  Goldfeder   and  Aayush  Jain   and  Sam  Kim   and  Peter  M.  R.  Rasmussen   and  Amit  Sahai"},
+
+{
+"id":"2017/955",                 
+"title":"Towards  Practical  Privacy-Preserving  Genome-Wide  Association  Study",
+"authors":"Charlotte  Bonte   and  Eleftheria  Makri   and  Amin  Ardeshirdavani   and  Jaak  Simm   and  Yves  Moreau   and  Frederik  Vercauteren"},
+
+{
+"id":"2017/809",                 
+"title":"High-Precision  Arithmetic  in  Homomorphic  Encryption",
+"authors":"Hao  Chen   and  Kim  Laine   and  Rachel  Player   and  Yuhou  Xia"},
+
+{
+"id":"2017/770",                 
+"title":"PAPEETE:  Private,  Authorized,   and  Fast  Personal  Genomic  Testing",
+"authors":"Angelo  Massimo  Perillo   and  Emiliano  De  Cristofaro"},
+
+{
+"id":"2017/763",                 
+"title":"Improved  Fully  Homomorphic  Encryption  without  Bootstrapping",
+"authors":"Masahiro  Yagisawa"},
+
+{
+"id":"2017/752",                 
+"title":"A  Note  on  Attribute-Based  Group  Homomorphic  Encryption",
+"authors":"Michael  Clear   and  Ciaran  McGoldrick"},
+
+{
+"id":"2017/748",                 
+"title":"Efficient  reductions  in  cyclotomic  rings -  Application  to  R-LWE  based  FHE  schemes",
+"authors":"Jean-Claude  Bajard   and  Julien  Eynard   and  Anwar  Hasan   and  Paulo  Martins   and  Leonel  Sousa   and  Vincent  Zucca"},
+
+{
+"id":"2017/737",                 
+"title":"SecReach:  Secure  Reachability  Computation  on  Encrypted  Location  Check-in  Data",
+"authors":"Hanyu  Quan   and  Boyang  Wang   and  Iraklis  Leontiadis   and  Ming  Li   and  Yuqing  Zhang"},
+
+{
+"id":"2017/735",                 
+"title":"Faster  Bootstrapping  with  Multiple  Addends",
+"authors":"TanPing  ZHOU   and  XiaoYuan  YANG   and  LongFei  LIU   and  Wei  ZHANG   and  YiTao  DING"},
+
+{
+"id":"2017/703",                 
+"title":"Optimally  Sound  Sigma  Protocols  Under  DCRA",
+"authors":"Helger  Lipmaa"},
+
+{
+"id":"2017/582",                 
+"title":"(Finite)  Field  Work:  Choosing  the  Best  Encoding  of  Numbers  for  FHE  Computation",
+"authors":"Angela  Jäschke   and  Frederik  Armknecht"},
+
+{
+"id":"2017/548",                 
+"title":"Fully  Homomorphic  Encryption  from  the  Finite  Field  Isomorphism  Problem",
+"authors":"Yark&#x0131;n  Dor&ouml;z   and  Jeffrey  Hoffstein   and  Jill  Pipher   and  Joseph  H.  Silverman   and  Berk  Sunar   and  William  Whyte   and  Zhenfei  Zhang"},
+
+{
+"id":"2017/527",                 
+"title":"Key  Rotation  for  Authenticated  Encryption",
+"authors":"Adam  Everspaugh   and  Kenneth  Paterson   and  Thomas  Ristenpart   and  Sam  Scott"},
+
+{
+"id":"2017/503",                 
+"title":"Encryption  Switching  Protocols  Revisited:  Switching  modulo $p$",
+"authors":"Guilhem  Castagnos   and  Laurent  Imbert   and  Fabien  Laguillaumie"},
+
+{
+"id":"2017/491",                 
+"title":"Laconic  Oblivious  Transfer   and  its  Applications",
+"authors":"Chongwon  Cho   and  Nico  Döttling   and  Sanjam  Garg   and  Divya  Gupta   and  Peihan  Miao   and  Antigoni  Polychroniadou"},
+
+{
+"id":"2017/483",                 
+"title":"A  multi-start  heuristic  for  multiplicative  depth  minimization  of  boolean  circuits",
+"authors":"Sergiu  Carpov   and  Pascal  Aubry   and  Renaud  Sirdey"},
+
+{
+"id":"2017/471",                 
+"title":"Total  Break  of  the  Fully  Homomorphic  Multivariate  Encryption  Scheme  of        Decryption  can  not  be  of  low  degree",
+"authors":"Jacob  Alperin-Sheriff   and  Jintai  Ding   and  Albrecht  Petzoldt   and  Daniel  Smith  Tone"},
+
+{
+"id":"2017/458",       
+"title":"Fully  Homomorphic  Encryption  Using  Multivariate  Polynomials",
+"authors":"Matthew  Tamayo-Rios   and  Jean-Charles  Faugère   and  Ludovic  Perret   and  Peng  Hui  How   and  Robin  Zhang"},
+
+{
+"id":"2017/426",                 
+"title":"FHPKE  based  on  multivariate  discrete  logarithm  problem",
+"authors":"Masahiro  Yagisawa"},
+
+{
+"id":"2017/373",                 
+"title":"Fully  Dynamic  Multi  Target  Homomorphic  Attribute-Based  Encryption",
+"authors":"Ryo  Hiromasa   and  Yutaka  Kawai"},
+
+{
+"id":"2017/326",                 
+"title":"Labeled  Homomorphic  Encryption:  Scalable   and  Privacy-Preserving  Processing  of  Outsourced  Data",
+"authors":"Manuel  Barbosa   and  Dario  Catalano   and  Dario  Fiore"},
+
+{
+"id":"2017/299",                 
+"title":"Fast  Private  Set  Intersection  from  Homomorphic  Encryption",
+"authors":"Hao  Chen   and  Kim  Laine   and  Peter  Rindal"},
+
+{
+"id":"2017/294",                 
+"title":"Secure  searching  of  biomarkers  through  hybrid  homomorphic  encryption  scheme",
+"authors":"Miran  Kim   and  Yongsoo  Song   and  Jung  Hee  Cheon"},
+
+{
+"id":"2017/257",                 
+"title":"Threshold  Fully  Homomorphic  Encryption",
+"authors":"Aayush  Jain   and  Peter  M.  R.  Rasmussen   and  Amit  Sahai"},
+
+{
+"id":"2017/251",                 
+"title":"A  Lattice-Based  Universal  Thresholdizer  for  Cryptographic  Systems",
+"authors":"Dan  Boneh   and  Rosario  Gennaro   and  Steven  Goldfeder   and  Sam  Kim"},
+
+{
+"id":"2017/235",                 
+"title":"Efficient  Oblivious  Transfer  from  Lossy  Threshold  Homomorphic  Encryption",
+"authors":"Isheeta  Nargis"},
+
+{
+"id":"2017/228",                 
+"title":"Efficient   and  Secure  Outsourcing  of  Genomic  Data  Storage",
+"authors":"João  Sá  Sousa   and  Cédric  Lefebvre   and  Zhicong  Huang   and  Jean  Louis  Raisaro   and  Carlos  Aguilar   and  Marc-Olivier  Killijian   and  Jean-Pierre  Hubaux"},
+
+{
+"id":"2017/224",                 
+"title":"Simple  Encrypted  Arithmetic  Library -  SEAL  v2.1",
+"authors":"Hao  Chen   and  Kim  Laine   and  Rachel  Player"},
+
+{
+"id":"2017/207",                 
+"title":"Private  Queries  on  Encrypted  Genomic  Data",
+"authors":"Gizem  S  Cetin   and  Hao  Chen   and  Kim  Laine   and  Kristin  Lauter   and  Peter  Rindal   and  Yuhou  Xia"},
+
+{
+"id":"2017/198",                 
+"title":"FHE  with  Recursive  Ciphertext ",
+"authors":"Masahiro  Yagisawa"},
+
+{
+"id":"2017/166",                 
+"title":"A  roadmap  to  fully  homomorphic  elections:  Stronger  security,  better  verifiability",
+"authors":"Kristian  Gjøsteen   and  Martin  Strand"},
+
+{
+"id":"2017/150",                 
+"title":"Group-Based  Secure  Computation:  Optimizing  Rounds,  Communication,   and  Computation",
+"authors":"Elette  Boyle   and  Niv  Gilboa   and  Yuval  Ishai"},
+
+{
+"id":"2017/091",                 
+"title":"Design   and  Implementation  of  Low  Depth  Pairing-based  Homomorphic  Encryption  Scheme",
+"authors":"Vincent  Herbert   and  Bhaskar  Biswas   and  Caroline  Fontaine"},
+
+{
+"id":"2017/086",                 
+"title":"Homomorphic  Proxy  Re-Authenticators   and  Applications  to  Verifiable  Multi-User  Data  Aggregation",
+"authors":"David  Derler   and  Sebastian  Ramacher   and  Daniel  Slamanig"},
+
+{
+"id":"2017/079",                 
+"title":"Faster  Bootstrapping  of  FHE  over  the  Integers",
+"authors":"Jung  Hee  Cheon   and  Kyoohyung  Han   and  Duhyeong  Kim"},
+
+{
+"id":"2017/047",                 
+"title":"On  dual  lattice  attacks  against  small-secret  LWE   and  parameter  choices  in  HElib   and  SEAL",
+"authors":"Martin  R.  Albrecht"},
+
+{
+"id":"2017/010",                 
+"title":"Circuit-Private  Multi-Key  FHE",
+"authors":"Wutichai  Chongchitmate   and  Rafail  Ostrovsky"},
+
+{
+"id":"2016/1163",                  
+"title":"Using  Fully  Homomorphic  Encryption  for  Statistical  Analysis  of  Categorical,  Ordinal   and  Numerical  Data",
+"authors":"Wen-jie  Lu   and  Shohei  Kawasaki   and  Jun  Sakuma"},
+
+{
+"id":"2016/1146",                  
+"title":"Preventing  Adaptive  Key  Recovery  Attacks  on  the  Gentry-Sahai-Waters  Leveled  Homomorphic  Encryption  Scheme",
+"authors":"Zengpeng  Li   and  Steven  D.  Galbraith   and  Chunguang  Ma"},
+
+{
+"id":"2016/1089",                  
+"title":"Homomorphic-Policy  Attribute-Based  Key  Encapsulation  Mechanisms",
+"authors":"Jérémy  Chotard   and  Duong  Hieu  Phan   and  David  Pointcheval"},
+
+{
+"id":"2016/897",                 
+"title":"An  efficient  somewhat  homomorphic  encryption  scheme  based  on  factorization",
+"authors":"Gérald  Gavin"},
+
+{
+"id":"2016/870",                 
+"title":"Faster  Fully  Homomorphic  Encryption:  Bootstrapping  in  less  than 0.1  Seconds",
+"authors":"Ilaria  Chillotti   and  Nicolas  Gama   and  Mariya  Georgieva   and  Malika  Izabachène"},
+
+{
+"id":"2016/801",                 
+"title":"Blind  Web  Search:  How  far  are  we  from  a  privacy  preserving  search  engine?",
+"authors":"Gizem  S.  &Ccedil;etin   and  Wei  Dai   and  Yark&#x0131;n  Dor&ouml;z   and  William  J.  Martin   and  Berk  Sunar"},
+
+{
+"id":"2016/785",                 
+"title":"Optimization  of  Bootstrapping  in  Circuits",
+"authors":"Fabrice  Benhamouda   and  Tancrède  Lepoint   and  Claire  Mathieu   and  Hang  Zhou"},
+
+{
+"id":"2016/781",                 
+"title":"Privately  Matching $k$-mers",
+"authors":"Justin  Bed&#x0151;   and  Thomas  Conway   and  Kim  Ramchen   and  Vanessa  Teague"},
+
+{
+"id":"2016/738",                 
+"title":"FHPKE  with  Zero  Norm  Noises  based  on  DLA&CDH",
+"authors":"Masahiro  Yagisawa"},
+
+{
+"id":"2016/691",                 
+"title":"Targeted  Homomorphic  Attribute  Based  Encryption",
+"authors":"Zvika  Brakerski   and  David  Cash   and  Rotem  Tsabary   and  Hoeteck  Wee"},
+
+{
+"id":"2016/687",                 
+"title":"Ciphers  for  MPC   and  FHE",
+"authors":"Martin  Albrecht   and  Christian  Rechberger   and  Thomas  Schneider   and  Tyge  Tiessen   and  Michael  Zohner"},
+
+{
+"id":"2016/675",                 
+"title":"Accelerating  Homomorphic  Computations  on  Rational  Numbers",
+"authors":"Angela  Jäschke   and  Frederik  Armknecht"},
+
+{
+"id":"2016/653",                 
+"title":"Fully  Homomorphic  Encryption  with  Zero  Norm  Cipher  Text",
+"authors":"Masahiro  Yagisawa"},
+
+{
+"id":"2016/585",                 
+"title":"Breaking  the  Circuit  Size  Barrier  for  Secure  Computation  Under  DDH",
+"authors":"Elette  Boyle   and  Niv  Gilboa   and  Yuval  Ishai"},
+
+{
+"id":"2016/559",                 
+"title":"Quantum  homomorphic  encryption  for  polynomial-sized  circuits",
+"authors":"Yfke  Dulek   and  Christian  Schaffner   and  Florian  Speelman"},
+
+{
+"id":"2016/538",                 
+"title":"How  to  prove  knowledge  of  small  secrets",
+"authors":"Carsten  Baum   and  Ivan  Damgård   and  Kasper  Larsen   and  Michael  Nielsen"},
+
+{
+"id":"2016/510",                 
+"title":"A  Full  RNS  Variant  of  FV  like  Somewhat  Homomorphic  Encryption  Schemes",
+"authors":"Jean-Claude  Bajard   and  Julien  Eynard   and  Anwar  Hasan   and  Vincent  Zucca"},
+
+{
+"id":"2016/488",                 
+"title":"Efficient  Homomorphic  Integer  Polynomial  Evaluation  based  on  GSW  FHE",
+"authors":"Husen  Wang   and  Qiang  Tang"},
+
+{
+"id":"2016/484",                 
+"title":"Ghostshell:  Secure  Biometric  Authentication  using  Integrity-based  Homomorphic  Evaluations",
+"authors":"Jung  Hee  Cheon   and  HeeWon  Chung   and  Myungsun  Kim   and  Kang-Won  Lee"},
+
+{
+"id":"2016/470",                 
+"title":"Better  Security  for  Queries  on  Encrypted  Databases",
+"authors":"Myungsun  Kim   and  Hyung  Tae  Lee   and  San  Ling   and  Shu  Qin  Ren   and  Benjamin  Hong  Meng  Tan   and  Huaxiong  Wang"},
+
+{
+"id":"2016/462",                 
+"title":"Fully  Homomorphic  Encryption  with  Isotropic  Elements",
+"authors":"Masahiro  Yagisawa"},
+
+{
+"id":"2016/445",                 
+"title":"SecureMed:  Secure  Medical  Computation  using  GPU-Accelerated  Homomorphic  Encryption  Scheme",
+"authors":"Alhassan  Khedr   and  Glenn  Gulak"},
+
+{
+"id":"2016/430",                 
+"title":"Partially  homomorphic  encryption  schemes  over  finite  fields",
+"authors":"Jian  Liu   and  Lusheng  Chen   and  Sihem  Mesnager"},
+
+{
+"id":"2016/421",                 
+"title":"Homomorphic  Encryption  for  Arithmetic  of  Approximate  Numbers",
+"authors":"Jung  Hee  Cheon   and  Andrey  Kim   and  Miran  Kim   and  Yongsoo  Song"},
+
+{
+"id":"2016/402",                 
+"title":"Fully  Homomorphic  Encryption  for  Point  Numbers",
+"authors":"Seiko  Arita   and  Shota  Nakasato"},
+
+{
+"id":"2016/385",                 
+"title":"A  note  on  Ring-LWE  security  in  the  case  of  Fully  Homomorphic  Encryption",
+"authors":"Guillaume  Bonnoron   and  Caroline  Fontaine"},
+
+{
+"id":"2016/381",                 
+"title":"FHE  Circuit  Privacy  Almost  For  Free",
+"authors":"Florian  Bourse   and  Rafaël  Del  Pino   and  Michele  Minelli   and  Hoeteck  Wee"},
+
+{
+"id":"2016/361",                 
+"title":"Functional  Encryption  for  Bounded  Collusions,  Revisited",
+"authors":"Shweta  Agrawal   and  Alon  Rosen"},
+
+{
+"id":"2016/344",                 
+"title":"Encoding  Rational  Numbers  for  FHE-based  Applications",
+"authors":"HeeWon  Chung   and  Myungsun  Kim"},
+
+{
+"id":"2016/339",                 
+"title":"Lattice-Based  Fully  Dynamic  Multi-Key  FHE  with  Short  Ciphertexts",
+"authors":"Zvika  Brakerski   and  Renen  Perlman"},
+
+{
+"id":"2016/315",                 
+"title":"Flattening  NTRU  for  Evaluation  Key  Free  Homomorphic  Encryption",
+"authors":"Yark&#305;n  Doröz   and  Berk  Sunar"},
+
+{
+"id":"2016/272",                 
+"title":"Spooky  Encryption   and  its  Applications",
+"authors":"Yevgeniy  Dodis   and  Shai  Halevi   and  Ron  D.  Rothblum   and  Daniel  Wichs"},
+
+{
+"id":"2016/232",                 
+"title":"Efficient  Privacy-Preserving  Matrix  Factorization  via  Fully  Homomorphic  Encryption",
+"authors":"Sungwook  Kim   and  Jinsu  Kim   and  Dongyoung  Koo   and  Yuna  Kim   and  Hyunsoo  Yoon   and  Junbum  Shin"},
+
+{
+"id":"2016/196",                 
+"title":"Multi-Key  FHE  from  LWE,  Revisited",
+"authors":"Chris  Peikert   and  Sina  Shiehian"},
+
+{
+"id":"2016/111",                 
+"title":"Scalable   and  Secure  Logistic  Regression  via  Homomorphic  Encryption",
+"authors":"Yoshinori  Aono   and  Takuya  Hayashi   and  Le  Trieu  Phong   and  Lihua  Wang"},
+
+{
+"id":"2016/108",                 
+"title":"An  Efficient  Toolkit  for  Computing  Private  Set  Operations",
+"authors":"Alex  Davidson   and  Carlos  Cid"},
+
+{
+"id":"2016/105",                 
+"title":"Can  there  be  efficient   and  natural  FHE  schemes?",
+"authors":"Kristian  Gjøsteen   and  Martin  Strand"},
+
+{
+"id":"2016/099",                 
+"title":"Attribute-Based  Fully  Homomorphic  Encryption  with  a  Bounded  Number  of  Inputs",
+"authors":"Michael  Clear   and  Ciaran  McGoldrick"},
+
+{
+"id":"2016/054",                 
+"title":"Fully  Homomorphic  Public-Key  Encryption  with  Two  Ciphertexts  based  on  Discrete  Logarithm  Problem",
+"authors":"Masahiro  Yagisawa"},
+
+{
+"id":"2016/050",                 
+"title":"Improved  Fully  Homomorphic  Encryption  with  Composite  Number  Modulus",
+"authors":"Masahiro  Yagisawa"},
+
+{
+"id":"2016/048",                 
+"title":"Better  Preprocessing  for  Secure  Multiparty  Computation",
+"authors":"Carsten  Baum   and  Ivan  Damgård   and  Tomas  Toft   and  Rasmus  Zakarias"},
+
+{
+"id":"2016/019",                 
+"title":"Analysis  of  Gong  et  al.'s  CCA2-Secure  Homomorphic  Encryption",
+"authors":"Hyung  Tae  Lee   and  San  Ling   and  Huaxiong  Wang"},
+
+{
+"id":"2016/012",                 
+"title":"Cryptography  for  Big  Data  Security",
+"authors":"Ariel  Hamlin   and  Nabil  Schear   and  Emily  Shen   and  Mayank  Varia   and  Sophia  Yakoubov   and  Arkady  Yerukhimovich"},
+
+{
+"id":"2016/008",                 
+"title":"cMix:  Mixing  with  Minimal  Real-Time  Asymmetric  Cryptographic  Operations",
+"authors":"David  Chaum   and  Debajyoti  Das   and  Farid  Javani   and  Aniket  Kate   and  Anna  Krasnova   and  Joeri  de  Ruiter   and  Alan  T.  Sherman"}
+  ]
+
