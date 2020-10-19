@@ -2,7 +2,7 @@
 
 #### 本页面由陈智罡博士负责翻译更新维护
 
-#### Palisade是一个开源项目。 我们很荣幸的宣布，我们正在接受NumFOCUS.org（专注于开源数据科学软件的非营利基金会）资助。 请参阅我们的PALISADE管理文档，以获取各个PALISADE团队及#### 其职责的列表。 另请参阅我们制定的行为准则，以了解我们的贡献者和维护者的责任。
+#### Palisade是一个开源项目。 我们很荣幸的宣布，我们正在接受NumFOCUS.org（专注于开源数据科学软件的非营利基金会）资助。 请参阅我们的PALISADE管理文档，以获取各个PALISADE团队及 其职责的列表。 另请参阅我们制定的行为准则，以了解我们的贡献者和维护者的责任。
 
 #### 该Wiki是服务用户使用PALISADE库的信息汇总。我们欢迎您通过社区提供其他相关材料。如果有任何建议，建议的文档或者类似的建议相关内容，请发送至如下地址：
 #### ·PALISADE项目 contact@palisade-crypto.org 
@@ -142,7 +142,7 @@ Contributors wiki article.提供了为PALISADE贡献代码或算法的核心成�
 
 ## 如何引用PALISADE
 
-#### 要在学术论文中引用PALISADE，请使用以下BibTeX条目。如果使用其他（旧）版本，请使用https://gitlab.com/palisade/palisade-development/blob/master/Release_Notes.md 中的日期去#### 更新发行版本和月份/年份。
+#### 要在学术论文中引用PALISADE，请使用以下BibTeX条目。如果使用其他（旧）版本，请使用https://gitlab.com/palisade/palisade-development/blob/master/Release_Notes.md 中的日期去 更新发行版本和月份/年份。
 
  
 
