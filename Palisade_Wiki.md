@@ -134,7 +134,7 @@
 
 #### PALISADE库使用BSD-2条款许可，这使公司和其他组织更容易使用该软件并将其集成到产品中，而不必担心受到许可问题的阻碍。
 #### 　·[可以在此处查看PALISADE许可证。][29]
-[29]:https://gitlab.com/palisade/palisade-development/blob/master/License.md
+[29]: https://gitlab.com/palisade/palisade-development/blob/master/License.md
 ## 感谢我们的贡献者
 #### 在https://palisade-crypto.org/community/ 上有贡献或使用过PALISADE的组织和赞助PALISADE开发的组织的最新列表。
 Contributors wiki article.提供了为PALISADE贡献代码或算法的核心成员和社区开发人员的最新列表。
@@ -153,6 +153,5 @@ Contributors wiki article.提供了为PALISADE贡献代码或算法的核心成�
 
 
 ## 经常问的问题
-
 #### 请参阅“ PALISADE[常见问题解答][30]”页面，以获取常见问题和解决方案的列表。
-[30]:https://gitlab.com/palisade/palisade-development/-/wikis/Frequently-Asked-Questions
+[30]: https://gitlab.com/palisade/palisade-development/-/wikis/Frequently-Asked-Questions
