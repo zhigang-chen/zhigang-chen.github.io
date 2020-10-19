@@ -62,52 +62,79 @@
 
 #### 为了熟悉PALISADE的主要API，我们建议您查看以下示例的代码：
 #### 1.用于整数运算（BFV）的全同态加密：
-#### 　(1)简单代码示例
-#### 　(2)带有序列化的简单代码示例
+#### 　(1)[简单代码示例][1] 
+[1]: https://gitlab.com/palisade/palisade-development/blob/master/src/pke/examples/simple-integers.cpp
+#### 　(2)[带有序列化的简单代码示例][2]
+[2]: https://gitlab.com/palisade/palisade-development/blob/master/src/pke/examples/simple-integers-serial.cpp
 #### 2.用于整数运算（BGV）的全同态加密： 
-#### 　(1)简单代码示例
-#### 　(2)带有序列化的简单代码示例
+#### 　(1)[简单代码示例][3]
+[3]: https://gitlab.com/palisade/palisade-development/blob/master/src/pke/examples/simple-integers-bgvrns.cpp
+#### 　(2)[带有序列化的简单代码示例][4]
+[4]: https://gitlab.com/palisade/palisade-development/blob/master/src/pke/examples/simple-integers-serial-bgvrns.cpp
 #### 3.用于实数运算（CKKS）的全同态加密： 
-#### 　(3)简单代码示例
-#### 　(4)高级代码示例
+#### 　(3)[简单代码示例][5]
+[5]: https://gitlab.com/palisade/palisade-development/blob/master/src/pke/examples/simple-real-numbers.cpp
+#### 　(4)[高级代码示例][6]
+[6]: https://gitlab.com/palisade/palisade-development/blob/master/src/pke/examples/advanced-real-numbers.cpp
 #### 4.布尔电路的全同态加密（FHEW / TFHE）： 
-#### 　(5)简单代码示例
-#### 　(6)JSON序列化代码
-#### 　(7)二进制序列化代码
+#### 　(5)[简单代码示例][7]
+[7]: https://gitlab.com/palisade/palisade-development/blob/master/src/binfhe/examples/boolean.cpp
+#### 　(6)[JSON序列化代码][8]
+[8]: https://gitlab.com/palisade/palisade-development/blob/master/src/binfhe/examples/boolean-serial-json.cpp
+#### 　(7)[二进制序列化代码][9]
+[9]: https://gitlab.com/palisade/palisade-development/blob/master/src/binfhe/examples/boolean-serial-binary.cpp
 #### 5.门限全同态加密： 
-#### 　(1)BGV，BFV和CKKS的代码示例
+#### 　(1)[BGV，BFV和CKKS的代码示例][10]
+[10]: https://gitlab.com/palisade/palisade-development/blob/master/src/pke/examples/threshold-fhe.cpp
 
 ## 更多文档
 ### 对PALISADE目录中的文件和README.md文件的说明：
-#### 1.PALISADE User Manual（PALISADE使用手册） 包含有关PALISADE库以及如何在应用程序中使用它的详细说明
-#### 2.PALISADE Webinars（PALISADE研讨会） --YouTube视频（每月录制），介绍和讨论有关PALISADE，同态加密以及同态加密的应用的最新新闻
-#### 3.PALISADE API（PALISADE库的API接口）--使用Doxygen自动生成的API文档
-#### 4.PALISADE Release Notes（PALISADE版本更新） 是每个版本的更新，包括大的更新和小的更新
-#### 5.Benchmarking PALISADE code（基准测试代码） --在benchmark目录中
-#### 6.Example Programs for the Public Key Encryption (PKE) Module（公钥加密模块的示例程序） 在src/pke/examples目录下
-#### 7.The Palisade Lattice Layer（格密码层） 在src/core/include/lattice目录
-#### 8.Various Mathematical Backends for Multiprecision Arithmetic（支持多精度算术的各种数学后端） 在src/core/include/math目录下
-#### 9.Discrete Gaussian Sampling implemented in PALISADE（PALISADE中的离散高斯取样实现）在src/core/include/math目下
+#### 1.[PALISADE User Manual（PALISADE使用手册）][11] 包含有关PALISADE库以及如何在应用程序中使用它的详细说明
+[11]:https://gitlab.com/palisade/palisade-development/blob/master/doc/palisade_manual.pdf
+#### 2.[PALISADE Webinars（PALISADE研讨会）][12] --YouTube视频（每月录制），介绍和讨论有关PALISADE，同态加密以及同态加密的应用的最新新闻
+[12]:https://palisade-crypto.org/webinars
+#### 3.[PALISADE API（PALISADE库的API接口）][13]--使用Doxygen自动生成的API文档
+[13]:https://palisade.gitlab.io/palisade-development/classes.html
+#### 4.[PALISADE Release Notes（PALISADE版本更新）][14] 是每个版本的更新，包括大的更新和小的更新
+[14]:https://gitlab.com/palisade/palisade-development/blob/master/Release_Notes.md
+#### 5.[Benchmarking PALISADE code（基准测试代码）][15] --在benchmark目录中
+[15]:https://gitlab.com/palisade/palisade-development/-/blob/master/benchmark/src/README.md
+#### 6.[Example Programs for the Public Key Encryption (PKE) Module（公钥加密模块的示例程序）][16] 在src/pke/examples目录下
+[16]:https://gitlab.com/palisade/palisade-development/blob/master/src/pke/examples/README.md
+#### 7.[The Palisade Lattice Layer（格密码层）][17] 在src/core/include/lattice目录
+[17]:https://gitlab.com/palisade/palisade-development/blob/master/src/core/include/lattice/README.md
+#### 8.[Various Mathematical Backends for Multiprecision Arithmetic（支持多精度算术的各种数学后端）][18] 在src/core/include/math目录下
+[18]:https://gitlab.com/palisade/palisade-development/blob/master/src/core/include/math/README.md
+#### 9.[Discrete Gaussian Sampling implemented in PALISADE（PALISADE中的离散高斯取样实现）][19]在src/core/include/math目下
+[19]:https://gitlab.com/palisade/palisade-development/blob/master/src/core/include/math/SAMPLING_README.md
 ### 在doc/wiki目录下的Wiki页面 
-#### 1.This Home page  （首页）
-#### 2.Publications on Lattice Crypto Scheme Implementations in PALISADE（关于格密码方案实现的相关出版物）
-#### 3.Known Issues （已知的问题）
-#### 4.CI Documentation（CI文档）
-#### 5.Exception Handling（异常处理）
-#### 6.Frequently Asked Questions（经常被问到的问题）
-#### 7.How To Rebase a Feature Branch from the Master Branch（如何从主分支建立一个功能分支）
+#### 1.This [Home page][20] （首页）
+[20]:https://gitlab.com/palisade/palisade-development/-/wikis/Home
+#### 2.[Publications on Lattice Crypto Scheme Implementations in PALISADE][21]（关于格密码方案实现的相关出版物）
+[21]:https://gitlab.com/palisade/palisade-development/-/wikis/Publications
+#### 3.[Known Issues][22] （已知的问题）
+[22]:https://gitlab.com/palisade/palisade-development/-/wikis/Known-Issues
+#### 4.[CI Documentation][23]（CI文档）
+[23]:https://gitlab.com/palisade/palisade-development/-/wikis/CI-Documentation
+#### 5.[Exception Handling][24]（异常处理）
+[24]:https://gitlab.com/palisade/palisade-development/-/wikis/Palisade-Exceptions
+#### 6.[Frequently Asked Questions][25]（经常被问到的问题）
+[25]:https://gitlab.com/palisade/palisade-development/-/wikis/Frequently-Asked-Questions
+#### 7.[How To Rebase a Feature Branch from the Master Branch][26]（如何从主分支建立一个功能分支）
+[26]:https://gitlab.com/palisade/palisade-development/-/wikis/How-to-rebase-your-branch-from-the-master-branch
 
 ## 修改和改进PALISADE
 
-#### 我们鼓励您对PALISADE进行修改和改进。请参阅Contributing.md文件，以了解有关遵循我们的主要和次要贡献过程的详细信息，以及有关我们编程风格要求的讨论。Contributing.md。
+#### 我们鼓励您对PALISADE进行修改和改进。请参阅Contributing.md文件，以了解有关遵循我们的主要和次要贡献过程的详细信息，以及有关我们编程风格要求的讨论。[Contributing.md][27]。
+[27]:https://gitlab.com/palisade/palisade-development/blob/master/Contributing.md
 #### 　·如果您计划对PALISADE进行重大修改，请先与我们联系，因为PALISADE正在开发中。这样，您可以确保添加的内容与计划的PALISADE版本保持一致。它还将确保您所做的更改基于开发库的最新版本。
-#### 　·PALISADE发行版本的所有新增内容均需获得PALISADE治理团队的批准，具体见PALISADE管理文档中的规定。
-
+#### 　·[PALISADE][28]发行版本的所有新增内容均需获得PALISADE治理团队的批准，具体见PALISADE管理文档中的规定。
+[28]:https://gitlab.com/palisade/palisade-development/blob/master/Governance.md
 ## 许可证信息
 
 #### PALISADE库使用BSD-2条款许可，这使公司和其他组织更容易使用该软件并将其集成到产品中，而不必担心受到许可问题的阻碍。
-#### 　·可以在此处查看PALISADE许可证。
-
+#### 　·[可以在此处查看PALISADE许可证。][29]
+[29]:https://gitlab.com/palisade/palisade-development/blob/master/License.md
 ## 感谢我们的贡献者
 #### 在https://palisade-crypto.org/community/ 上有贡献或使用过PALISADE的组织和赞助PALISADE开发的组织的最新列表。
 Contributors wiki article.提供了为PALISADE贡献代码或算法的核心成员和社区开发人员的最新列表。
@@ -127,4 +154,5 @@ Contributors wiki article.提供了为PALISADE贡献代码或算法的核心成�
 
 ## 经常问的问题
 
-#### 请参阅“ PALISADE常见问题解答”页面，以获取常见问题和解决方案的列表。
+#### 请参阅“ PALISADE[常见问题解答][30]”页面，以获取常见问题和解决方案的列表。
+[30]:https://gitlab.com/palisade/palisade-development/-/wikis/Frequently-Asked-Questions
