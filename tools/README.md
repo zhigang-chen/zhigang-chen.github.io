@@ -115,7 +115,11 @@ python pdf_extractor.py document.pdf --frequency --output freq.csv --format csv
 
 ## 示例输出 / Example Output
 
-```
+```bash
+# 运行命令 / Run command:
+python pdf_extractor.py sample.pdf --all --output result.json
+
+# 输出 / Output:
 正在读取PDF文件: sample.pdf
 已提取 10 页内容
 
@@ -140,7 +144,7 @@ python pdf_extractor.py document.pdf --frequency --output freq.csv --format csv
   本文提出了一种新的全同态加密方案...
 
 结果已保存至: result.json
-分析完成!
+Analysis complete! / 分析完成!
 ```
 
 ## 作为模块使用 / Using as a Module

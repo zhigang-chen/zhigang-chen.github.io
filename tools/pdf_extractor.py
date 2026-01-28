@@ -29,6 +29,7 @@ Author: Zhigang Chen
 """
 
 import argparse
+import csv
 import json
 import os
 import re
@@ -48,20 +49,24 @@ except ImportError:
 
 
 class PDFExtractor:
-    """PDF内容提取器类"""
+    """PDF内容提取器类 / PDF Content Extractor Class"""
     
     def __init__(self, pdf_path: str):
         """
-        初始化PDF提取器
+        初始化PDF提取器 / Initialize PDF extractor
         
         Args:
-            pdf_path: PDF文件路径
+            pdf_path: PDF文件路径 / PDF file path
         """
         if not os.path.exists(pdf_path):
-            raise FileNotFoundError(f"PDF文件不存在: {pdf_path}")
+            raise FileNotFoundError(
+                f"PDF file not found / PDF文件不存在: {pdf_path}"
+            )
         
         if not pdf_path.lower().endswith('.pdf'):
-            raise ValueError(f"文件不是PDF格式: {pdf_path}")
+            raise ValueError(
+                f"File is not PDF format / 文件不是PDF格式: {pdf_path}"
+            )
         
         self.pdf_path = pdf_path
         self.text_content = ""
@@ -70,13 +75,13 @@ class PDFExtractor:
     
     def extract_text(self, use_pdfplumber: bool = True) -> str:
         """
-        提取PDF文本内容
+        提取PDF文本内容 / Extract PDF text content
         
         Args:
-            use_pdfplumber: 是否优先使用pdfplumber库
+            use_pdfplumber: 是否优先使用pdfplumber库 / Whether to use pdfplumber first
             
         Returns:
-            提取的文本内容
+            提取的文本内容 / Extracted text content
         """
         if use_pdfplumber and pdfplumber:
             return self._extract_with_pdfplumber()
@@ -84,7 +89,8 @@ class PDFExtractor:
             return self._extract_with_pypdf2()
         else:
             raise ImportError(
-                "请安装PDF处理库: pip install pdfplumber 或 pip install PyPDF2"
+                "Please install PDF library / 请安装PDF处理库: "
+                "pip install pdfplumber 或 pip install PyPDF2"
             )
     
     def _extract_with_pdfplumber(self) -> str:
@@ -127,22 +133,28 @@ class PDFExtractor:
         return self.text_content
     
     def get_page_count(self) -> int:
-        """获取PDF页数"""
+        """获取PDF页数 / Get PDF page count"""
         return len(self.pages)
     
     def get_page_text(self, page_number: int) -> str:
         """
-        获取指定页面的文本
+        获取指定页面的文本 / Get text of specified page
         
         Args:
-            page_number: 页码（从1开始）
+            page_number: 页码（从1开始）/ Page number (starting from 1)
             
         Returns:
-            页面文本内容
+            页面文本内容 / Page text content
         """
-        if 1 <= page_number <= len(self.pages):
-            return self.pages[page_number - 1]['text']
-        raise ValueError(f"页码超出范围: {page_number}")
+        if not isinstance(page_number, int) or page_number < 1:
+            raise ValueError(
+                f"Page number must be a positive integer / 页码必须为正整数: {page_number}"
+            )
+        if page_number > len(self.pages):
+            raise ValueError(
+                f"Page number out of range / 页码超出范围: {page_number}"
+            )
+        return self.pages[page_number - 1]['text']
 
 
 class ContentAnalyzer:
@@ -177,47 +189,30 @@ class ContentAnalyzer:
         初始化内容分析器
         
         Args:
-            text: 要分析的文本
+            text: 要分析的文本 / Text to analyze
         """
         self.text = text
-        self.words = self._tokenize()
-    
-    def _tokenize(self) -> List[str]:
-        """
-        分词处理
-        
-        Returns:
-            分词结果列表
-        """
-        # 提取中文词汇和英文单词
-        # 中文使用简单的字符切分，英文使用空格切分
-        chinese_pattern = r'[\u4e00-\u9fff]+'
-        english_pattern = r'[a-zA-Z]+'
-        
-        chinese_words = re.findall(chinese_pattern, self.text)
-        english_words = re.findall(english_pattern, self.text.lower())
-        
-        # 合并词汇列表
-        all_words = chinese_words + english_words
-        return all_words
+        self.words = self._tokenize_text(self.text)
     
     def word_frequency(self, top_n: int = 20, 
                        include_stopwords: bool = False) -> List[Tuple[str, int]]:
         """
-        统计词频
+        统计词频 / Calculate word frequency
         
         Args:
-            top_n: 返回前N个高频词
-            include_stopwords: 是否包含停用词
+            top_n: 返回前N个高频词 / Return top N high-frequency words
+            include_stopwords: 是否包含停用词 / Whether to include stopwords
             
         Returns:
-            词频列表，格式为[(词, 频次), ...]
+            词频列表，格式为[(词, 频次), ...] / Frequency list in format [(word, count), ...]
         """
         words = self.words
         
         if not include_stopwords:
             stopwords = self.CHINESE_STOPWORDS | self.ENGLISH_STOPWORDS
-            words = [w for w in words if w not in stopwords and len(w) > 1]
+            # Filter stopwords; apply length>1 filter only to English words
+            words = [w for w in words if w not in stopwords and 
+                     (re.match(r'^[\u4e00-\u9fff]+$', w) or len(w) > 1)]
         
         counter = Counter(words)
         return counter.most_common(top_n)
@@ -235,56 +230,74 @@ class ContentAnalyzer:
         freq = self.word_frequency(top_n=top_n, include_stopwords=False)
         return [word for word, _ in freq]
     
-    def get_summary(self, max_sentences: int = 5) -> str:
+    def get_summary(self, max_sentences: int = 5, num_keywords: int = 20) -> str:
         """
         生成内容摘要（基于句子重要性）
+        Generate content summary based on sentence importance
         
         Args:
-            max_sentences: 摘要包含的最大句子数
+            max_sentences: 摘要包含的最大句子数 / Maximum sentences in summary
+            num_keywords: 用于评分的关键词数量 / Number of keywords for scoring
             
         Returns:
-            内容摘要
+            内容摘要 / Content summary
         """
+        # Minimum sentence length threshold (characters)
+        MIN_SENTENCE_LENGTH = 10
+        
         # 简单的摘要方法：基于关键词出现频率选择重要句子
         sentences = re.split(r'[。！？.!?\n]+', self.text)
-        sentences = [s.strip() for s in sentences if len(s.strip()) > 10]
+        sentences = [s.strip() for s in sentences if len(s.strip()) > MIN_SENTENCE_LENGTH]
         
         if not sentences:
             return ""
         
         # 获取关键词
-        keywords = set(self.extract_keywords(top_n=20))
+        keywords = set(self.extract_keywords(top_n=num_keywords))
         
         # 计算每个句子的得分
         sentence_scores = []
         for sentence in sentences:
-            score = sum(1 for word in self._tokenize_sentence(sentence) 
+            score = sum(1 for word in self._tokenize_text(sentence) 
                        if word in keywords)
             sentence_scores.append((sentence, score))
         
         # 按得分排序并选取前N个句子
         sentence_scores.sort(key=lambda x: x[1], reverse=True)
-        top_sentences = sentence_scores[:max_sentences]
+        top_sentences_set = {sent for sent, _ in sentence_scores[:max_sentences]}
         
-        # 按原文顺序重新排列
-        summary_sentences = []
-        for sentence in sentences:
-            for top_sent, _ in top_sentences:
-                if sentence == top_sent:
-                    summary_sentences.append(sentence)
-                    break
-            if len(summary_sentences) >= max_sentences:
-                break
+        # 按原文顺序重新排列 (using set for O(1) lookup)
+        summary_sentences = [s for s in sentences if s in top_sentences_set][:max_sentences]
         
-        return '。'.join(summary_sentences) + '。' if summary_sentences else ""
+        if not summary_sentences:
+            return ""
+        
+        # Detect primary language to use appropriate punctuation
+        chinese_char_count = len(re.findall(r'[\u4e00-\u9fff]', self.text))
+        english_char_count = len(re.findall(r'[a-zA-Z]', self.text))
+        
+        if chinese_char_count > english_char_count:
+            # Chinese document - use Chinese period
+            return '。'.join(summary_sentences) + '。'
+        else:
+            # English document - use English period
+            return '. '.join(summary_sentences) + '.'
     
-    def _tokenize_sentence(self, sentence: str) -> List[str]:
-        """对单个句子进行分词"""
+    def _tokenize_text(self, text: str) -> List[str]:
+        """
+        对文本进行分词 / Tokenize text
+        
+        Args:
+            text: 要分词的文本 / Text to tokenize
+            
+        Returns:
+            分词结果列表 / List of tokens
+        """
         chinese_pattern = r'[\u4e00-\u9fff]+'
         english_pattern = r'[a-zA-Z]+'
         
-        chinese_words = re.findall(chinese_pattern, sentence)
-        english_words = re.findall(english_pattern, sentence.lower())
+        chinese_words = re.findall(chinese_pattern, text)
+        english_words = re.findall(english_pattern, text.lower())
         
         return chinese_words + english_words
     
@@ -359,18 +372,16 @@ class ResultExporter:
     def export_csv(self, data: List[Tuple], headers: List[str],
                    output_path: Optional[str] = None) -> str:
         """
-        导出为CSV文件
+        导出为CSV文件 / Export to CSV file
         
         Args:
-            data: 要导出的数据列表
-            headers: 列头
-            output_path: 输出路径
+            data: 要导出的数据列表 / Data list to export
+            headers: 列头 / Column headers
+            output_path: 输出路径 / Output path
             
         Returns:
-            输出文件路径
+            输出文件路径 / Output file path
         """
-        import csv
-        
         path = output_path or self.output_path or 'output.csv'
         with open(path, 'w', encoding='utf-8-sig', newline='') as f:
             writer = csv.writer(f)
@@ -379,8 +390,23 @@ class ResultExporter:
         return path
 
 
+def _positive_int(value: str) -> int:
+    """Validate positive integer for argparse"""
+    try:
+        ivalue = int(value)
+        if ivalue <= 0:
+            raise argparse.ArgumentTypeError(
+                f"Value must be positive / 值必须为正整数: {value}"
+            )
+        return ivalue
+    except ValueError:
+        raise argparse.ArgumentTypeError(
+            f"Invalid integer / 无效整数: {value}"
+        )
+
+
 def main():
-    """主函数"""
+    """主函数 / Main function"""
     parser = argparse.ArgumentParser(
         description='PDF内容提取与分析工具 / PDF Content Extractor and Analyzer',
         formatter_class=argparse.RawDescriptionHelpFormatter,
@@ -394,31 +420,31 @@ def main():
         """
     )
     
-    parser.add_argument('pdf_file', help='PDF文件路径')
+    parser.add_argument('pdf_file', help='PDF文件路径 / PDF file path')
     parser.add_argument('--extract', action='store_true',
-                        help='提取文本内容')
+                        help='提取文本内容 / Extract text content')
     parser.add_argument('--keywords', action='store_true',
-                        help='提取关键词')
+                        help='提取关键词 / Extract keywords')
     parser.add_argument('--frequency', action='store_true',
-                        help='分析词频')
+                        help='分析词频 / Analyze word frequency')
     parser.add_argument('--summary', action='store_true',
-                        help='生成内容摘要')
+                        help='生成内容摘要 / Generate content summary')
     parser.add_argument('--statistics', action='store_true',
-                        help='显示文本统计信息')
+                        help='显示文本统计信息 / Show text statistics')
     parser.add_argument('--all', action='store_true',
-                        help='执行所有分析')
-    parser.add_argument('--top', type=int, default=20,
-                        help='关键词/词频返回数量 (默认: 20)')
-    parser.add_argument('--sentences', type=int, default=5,
-                        help='摘要句子数量 (默认: 5)')
+                        help='执行所有分析 / Execute all analysis')
+    parser.add_argument('--top', type=_positive_int, default=20,
+                        help='关键词/词频返回数量 / Keyword/frequency count (default: 20)')
+    parser.add_argument('--sentences', type=_positive_int, default=5,
+                        help='摘要句子数量 / Summary sentence count (default: 5)')
     parser.add_argument('--output', '-o', type=str,
-                        help='输出文件路径')
+                        help='输出文件路径 / Output file path')
     parser.add_argument('--format', '-f', type=str, 
                         choices=['txt', 'json', 'csv'],
                         default='json',
-                        help='输出格式 (默认: json)')
-    parser.add_argument('--page', type=int,
-                        help='只处理指定页面')
+                        help='输出格式 / Output format (default: json)')
+    parser.add_argument('--page', type=_positive_int,
+                        help='只处理指定页面 / Process only specified page')
     
     args = parser.parse_args()
     
@@ -516,20 +542,20 @@ def main():
             if output_file:
                 print(f"\n结果已保存至: {output_file}")
         
-        print("\n分析完成!")
+        print("\nAnalysis complete! / 分析完成!")
         return 0
         
-    except FileNotFoundError as e:
-        print(f"错误: {e}")
+    except FileNotFoundError as file_error:
+        print(f"File error / 文件错误: {file_error}")
         return 1
-    except ValueError as e:
-        print(f"错误: {e}")
+    except ValueError as value_error:
+        print(f"Value error / 值错误: {value_error}")
         return 1
-    except ImportError as e:
-        print(f"依赖错误: {e}")
+    except ImportError as import_error:
+        print(f"Dependency error / 依赖错误: {import_error}")
         return 1
-    except Exception as e:
-        print(f"未知错误: {e}")
+    except Exception as unknown_error:
+        print(f"Unknown error / 未知错误: {unknown_error}")
         return 1
 
 
